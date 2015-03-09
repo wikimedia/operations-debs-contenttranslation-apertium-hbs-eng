@@ -1,0 +1,28 @@
+Test file: 'MT.txt'
+Reference file 'postedit.txt'
+
+Statistics about input files
+-------------------------------------------------------
+Number of words in reference: 373
+Number of words in test: 324
+Number of unknown words (marked with a star) in test: 
+Percentage of unknown words: 0.00 %
+
+Results when removing unknown-word marks (stars)
+-------------------------------------------------------
+Edit distance: 111
+Word error rate (WER): 29.76 %
+Number of position-independent correct words: 274
+Position-independent word error rate (PER): 26.54 %
+
+Results when unknown-word marks (stars) are not removed
+-------------------------------------------------------
+Edit distance: 111
+Word Error Rate (WER): 29.76 %
+Number of position-independent correct words: 274
+Position-independent word error rate (PER): 26.54 %
+
+Statistics about the translation of unknown words
+-------------------------------------------------------
+Number of unknown words which were free rides: 0
+Percentage of unknown words that were free rides: 0%

@@ -1,0 +1,2464 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<transfer>
+	<section-def-cats>
+		<def-cat n="n">
+			<cat-item tags="n.*"/>
+		</def-cat>
+		
+		<def-cat n="prn.pos">
+			<cat-item tags="prn.pos.*"/>
+		</def-cat>
+		
+		<def-cat n="probj">
+			<cat-item tags="probj.*"/>
+		</def-cat>
+				
+		<def-cat n="pr.prn">
+			<cat-item tags="pr.prn.*"/>
+		</def-cat>
+
+		<def-cat n="verb">
+			<cat-item tags="vblex.*"/>
+			<cat-item tags="vbhaver.*"/>
+			<cat-item tags="vbser.*"/>
+		</def-cat>
+
+		<def-cat n="ref.prn">
+			<cat-item tags="ref.prn"/>
+		</def-cat>
+
+		<def-cat n="adv">
+			<cat-item tags="adv.*"/>
+		</def-cat>
+
+		<def-cat n="np">
+			<cat-item tags="np.*"/>
+		</def-cat>
+
+		<def-cat n="nom">
+			<cat-item tags="n.*"/>
+			<cat-item tags="np.*"/>
+		</def-cat>
+
+		<def-cat n="vbser">
+		   <cat-item tags="vbser.*"/>
+		</def-cat>
+
+		<def-cat n="vblex">
+		   <cat-item tags="vblex.*"/>
+		</def-cat>
+
+		<def-cat n="vbmod">
+		   <cat-item tags="vbmod.*"/>
+		</def-cat>
+
+		<def-cat n="vbhaver">
+		   <cat-item tags="vbhaver.*"/>
+		</def-cat>
+
+		<def-cat n="adj">
+		   <cat-item tags="adj.*"/>
+		</def-cat>
+
+		<def-cat n="prpers">
+	  	<cat-item lemma="prpers" tags="prn.*"/>
+		</def-cat>
+		
+		<def-cat n="pr">
+			<cat-item tags="pr.*"/>
+		</def-cat>
+
+		<def-cat n="conj">
+			<cat-item tags="conj.*"/>
+		</def-cat>
+
+		<def-cat n="art">
+			<cat-item tags="art.*"/>
+		</def-cat>
+
+		<def-cat n="num">
+			<cat-item tags="num.*"/>
+		</def-cat>
+
+		<def-cat n="part">
+			<cat-item tags="part.*"/>
+		</def-cat>
+
+		<def-cat n="punct">
+			<cat-item tags="punct.*"/>
+		</def-cat>
+
+		<def-cat n="neg">
+			<cat-item tags="neg.*"/>
+		</def-cat>
+
+	</section-def-cats>
+
+	<section-def-attrs>
+		<def-attr n="nbr">
+	  	<attr-item tags="sg"/>
+		 	<attr-item tags="pl"/>
+		 	<attr-item tags="sp"/>
+		</def-attr>
+		
+		<def-attr n="a_n">
+		  <attr-item tags="n"/>
+		</def-attr>
+
+		<def-attr n="a_pol">
+		  <attr-item tags="pos"/>
+		  <attr-item tags="neg"/>
+		</def-attr>
+
+		<def-attr n="a_num">
+		  <attr-item tags="num"/>
+		</def-attr>
+
+		<def-attr n="a_np">
+		  <attr-item tags="np"/>
+		</def-attr>
+
+		<def-attr n="a_nom">
+		  <attr-item tags="n"/>
+		  <attr-item tags="np"/>
+		</def-attr>
+
+		<def-attr n="a_adj">
+		  <attr-item tags="adj"/>
+		</def-attr>
+
+		<def-attr n="a_pr">
+		  <attr-item tags="pr"/>
+		</def-attr>
+
+		<def-attr n="a_adv">
+		  <attr-item tags="adv"/>
+		</def-attr>
+
+		<def-attr n="a_part">
+		  <attr-item tags="part"/>
+		</def-attr>
+
+		<def-attr n="a_probj">
+		  <attr-item tags="probj"/>
+		</def-attr>
+
+		<def-attr n="pr_role">
+		  <attr-item tags="plc"/>
+		  <attr-item tags="time"/>
+		  <attr-item tags="inst"/>
+		</def-attr>
+
+		<def-attr n="temps">
+		   <attr-item tags="pres"/>
+		   <attr-item tags="past"/>
+		   <attr-item tags="prperf"/>
+		   <attr-item tags="prcont"/>
+		   <attr-item tags="inf"/>
+		   <attr-item tags="presneg"/>
+		
+		</def-attr>
+
+		<def-attr n="pol">
+		   <attr-item tags="pos"/>
+		   <attr-item tags="neg"/>
+		</def-attr>
+
+		<def-attr n="adv_type">
+		   <attr-item tags="itg"/>
+		</def-attr>
+
+
+		<def-attr n="pers">
+   		<attr-item tags="p1"/>
+   		<attr-item tags="p2"/>
+   		<attr-item tags="p3"/>
+   		<attr-item tags="p4"/>
+		</def-attr>
+
+		<def-attr n="gender">
+   		<attr-item tags="m"/>
+   		<attr-item tags="f"/>
+   		<attr-item tags="mf"/>
+		</def-attr>
+		
+		<def-attr n="tipus_prn">
+			 <attr-item tags="prn.subj"/>
+			 <attr-item tags="prn.obj"/>
+		</def-attr>
+
+		<def-attr n="a_verb">
+			<attr-item tags="vblex"/>
+			<attr-item tags="vbser"/>
+			<attr-item tags="vbmod"/>
+			<attr-item tags="vbhaver"/>
+		</def-attr>
+		
+		<def-attr n="a_conj">
+			<attr-item tags="conj"/>
+		</def-attr>
+	
+		<def-attr n="a_punct">
+		  <attr-item tags="punct"/>
+		</def-attr>
+
+		<def-attr n="punct_type">
+		  <attr-item tags="sent"/>
+		</def-attr>
+
+		<def-attr n="a_art">
+			<attr-item tags="art"/>
+		</def-attr>
+
+		<def-attr n="art_type">
+			<attr-item tags="def"/>
+			<attr-item tags="def"/>
+		</def-attr>
+	
+		<def-attr n="a_prn.pos">
+			<attr-item tags="prn.pos"/>
+		</def-attr>
+
+		<def-attr n="case">
+			<attr-item tags="nom"/>
+			<attr-item tags="dat"/>
+			<attr-item tags="acc"/>
+			<attr-item tags="voc"/>
+			<attr-item tags="loc"/>
+			<attr-item tags="ins"/>
+			<attr-item tags="gen"/>
+		</def-attr>
+	</section-def-attrs>
+
+	<section-def-vars>
+		<def-var n="num_var"/>
+	</section-def-vars>
+	
+	<section-rules>
+
+		<!-- rule no. 1 -->
+		<rule>
+   		<pattern>
+    		<pattern-item n="ref.prn"/>
+    		<pattern-item n="vbmod"/>
+    		<pattern-item n="vblex"/>
+	    </pattern>
+		  <action>
+      	<out>
+       		<lu>
+						<lit v="prpers"/>
+						<lit-tag v="prn"/>
+						<lit-tag v="subj"/>
+						<clip pos="2" side="tl" part="pers"/>
+						<clip pos="2" side="tl" part="nbr"/>
+						<lit-tag v="mf"/>
+					</lu>
+					<b/>
+					<lu>
+         		<clip pos="2" side="tl" part="lem"/>
+         		<clip pos="2" side="tl" part="a_verb"/>
+						<clip pos="2" side="tl" part="pol"/>
+         		<clip pos="2" side="tl" part="temps"/>
+         		<clip pos="2" side="tl" part="pers"/>
+         		<clip pos="2" side="tl" part="nbr"/>
+         		<clip pos="2" side="tl" part="gender"/>
+					</lu>
+					<b/>
+					<lu>
+         		<clip pos="3" side="tl" part="lem"/>
+         		<clip pos="3" side="tl" part="a_verb"/>
+         		<clip pos="3" side="tl" part="temps"/>
+         		<clip pos="3" side="tl" part="pers"/>
+         		<clip pos="3" side="tl" part="nbr"/>
+         		<clip pos="3" side="tl" part="gender"/>
+					</lu>
+
+      	</out>
+    	</action>
+		</rule>
+
+		<!-- rule no. 2 -->
+		<rule>
+   		<pattern>
+    		<pattern-item n="ref.prn"/>
+    		<pattern-item n="vblex"/>
+	    </pattern>
+		  <action>
+				<choose>
+					<when>
+						<test>
+							<equal>
+								<clip pos="2" side="sl" part="temps"/>
+								<lit-tag v="inf"/>
+							</equal>
+						</test>
+						<out>
+		       		<lu>
+								<lit v="to"/>
+								<lit-tag v="adv"/>
+								<lit-tag v="itg"/>
+							</lu>
+							<b/>
+							<lu>
+					   		<clip pos="2" side="tl" part="lem"/>
+					   		<clip pos="2" side="tl" part="a_verb"/>
+					   		<clip pos="2" side="tl" part="temps"/>
+					   		<clip pos="2" side="tl" part="pers"/>
+					   		<clip pos="2" side="tl" part="nbr"/>
+	          		<clip pos="2" side="tl" part="gender"/>
+							</lu>
+     				</out>
+					</when>
+						<otherwise>
+							<out>
+		       			<lu>
+									<lit v="prpers"/>
+									<lit-tag v="prn"/>
+									<lit-tag v="subj"/>
+									<clip pos="2" side="tl" part="pers"/>
+									<clip pos="2" side="tl" part="nbr"/>
+									<lit-tag v="mf"/>
+								</lu>
+								<b/>
+								<lu>
+					   			<clip pos="2" side="tl" part="lem"/>
+					   			<clip pos="2" side="tl" part="a_verb"/>
+					   			<clip pos="2" side="tl" part="temps"/>
+					   			<clip pos="2" side="tl" part="pers"/>
+					   			<clip pos="2" side="tl" part="nbr"/>
+		          		<clip pos="2" side="tl" part="gender"/>
+								</lu>
+     					</out>
+						</otherwise>
+				</choose>
+    	</action>
+		</rule>
+
+		<!-- rule no. 3 -->
+		<rule>
+   		<pattern>
+				<pattern-item n="adv"/>
+    		<pattern-item n="ref.prn"/>
+    		<pattern-item n="vblex"/>
+	    </pattern>
+		  <action>
+				<out>
+					<lu>
+						<lit v="prpers"/>
+						<lit-tag v="prn"/>
+						<lit-tag v="subj"/>
+						<clip pos="3" side="tl" part="pers"/>
+						<clip pos="3" side="tl" part="nbr"/>
+						<lit-tag v="mf"/>
+					</lu>
+					<b/>
+					<lu>
+						<clip pos="1" side="tl" part="lem"/>
+						<clip pos="1" side="tl" part="a_adv"/>
+						<clip pos="1" side="tl" part="adv_type"/>
+					</lu>
+					<b/>
+					<lu>
+						<clip pos="3" side="tl" part="lem"/>
+						<clip pos="3" side="tl" part="a_verb"/>
+						<clip pos="3" side="tl" part="temps"/>
+						<clip pos="3" side="tl" part="pers"/>
+						<clip pos="3" side="tl" part="nbr"/>
+		      	<clip pos="3" side="tl" part="gender"/>
+					</lu>
+				</out>
+    	</action>
+		</rule>
+
+		<!-- rule no. 4 -->
+		<!-- <noun> <pr> <vbmod> <vblex> -> <the> <noun> <vbmod> <to> <vblex> -->
+		<rule>
+   		<pattern>
+    		<pattern-item n="n"/>
+    		<pattern-item n="ref.prn"/>
+    		<pattern-item n="vbmod"/>
+    		<pattern-item n="vblex"/>
+	    </pattern>
+		  <action>
+				<out>
+		    	<lu>
+						<lit v="the"/>
+						<lit-tag v="art"/>
+						<lit-tag v="def"/>
+					</lu>
+					<b/>
+					<lu>
+						<clip pos="1" side="tl" part="lem"/>
+						<clip pos="1" side="tl" part="a_n"/>
+						<clip pos="1" side="tl" part="case"/>
+						<clip pos="1" side="tl" part="nbr"/>
+					</lu>
+					<b/>
+					<lu>
+						<clip pos="3" side="tl" part="lem"/>
+						<clip pos="3" side="tl" part="a_verb"/>
+						<clip pos="3" side="tl" part="temps"/>
+						<clip pos="3" side="tl" part="pers"/>
+						<clip pos="3" side="tl" part="nbr"/>
+         		<clip pos="3" side="tl" part="gender"/>
+					</lu>
+					<b/>
+					<lu>
+						<lit v="to"/>
+						<lit-tag v="adv"/>
+						<lit-tag v="itg"/>
+					</lu>
+					<b/>
+					<lu>
+						<clip pos="4" side="tl" part="lem"/>
+						<clip pos="4" side="tl" part="a_verb"/>
+						<clip pos="4" side="tl" part="temps"/>
+						<clip pos="4" side="tl" part="pers"/>
+						<clip pos="4" side="tl" part="nbr"/>
+         		<clip pos="4" side="tl" part="gender"/>
+					</lu>
+     		</out>				
+    	</action>
+		</rule>
+
+		<!-- rule no. 5 -->
+		<!-- <pr> <noun> -> <pr> <the> <noun> -->
+		<rule>
+   		<pattern>
+    		<pattern-item n="pr"/>
+    		<pattern-item n="n"/>
+	    </pattern>
+		  <action>
+      	<out>
+       		<lu>
+						<clip pos="1" side="tl" part="lem"/>
+						<clip pos="1" side="tl" part="a_pr"/>
+						<clip pos="1" side="tl" part="pr_role"/>
+					</lu>
+					<b/>
+					<lu>
+         		<lit v="the"/>
+						<lit-tag v="art"/>
+						<lit-tag v="def"/>
+					</lu>
+					<b/>
+					<lu>
+         		<clip pos="2" side="tl" part="lem"/>
+         		<clip pos="2" side="tl" part="a_n"/>
+         		<clip pos="2" side="tl" part="case"/>
+         		<clip pos="2" side="tl" part="nbr"/>
+					</lu>
+      	</out>
+    	</action>
+		</rule>
+
+		<!-- rule no. 6 -->
+		<!-- <vblex> <se> -> <vblex + ing> -->
+		<rule>
+   		<pattern>
+    		<pattern-item n="vblex"/>
+    		<pattern-item n="ref.prn"/>
+	    </pattern>
+		  <action>
+      	<out>
+       		<lu>
+						<clip pos="1" side="tl" part="lem"/>
+						<clip pos="1" side="tl" part="a_verb"/>
+						<lit-tag v="prcont"/>
+						<clip pos="1" side="tl" part="pers"/>
+						<clip pos="1" side="tl" part="nbr"/>
+         		<clip pos="1" side="tl" part="gender"/>
+					</lu>
+      	</out>
+    	</action>
+		</rule>
+
+	<!-- rule no. 7 -->
+	<!-- <pr> <adjective> <noun> -> <pr> <the> <adjective> <noun> -->
+		<rule>
+   		<pattern>
+    		<pattern-item n="pr"/>
+    		<pattern-item n="adj"/>
+    		<pattern-item n="n"/>
+	    </pattern>
+		  <action>
+      	<out>
+       		<lu>
+						<clip pos="1" side="tl" part="lem"/>
+						<clip pos="1" side="tl" part="a_pr"/>
+						<clip pos="1" side="tl" part="pr_role"/>
+					</lu>
+					<b/>
+					<lu>
+         		<lit v="the"/>
+						<lit-tag v="art"/>
+						<lit-tag v="def"/>
+					</lu>
+					<b/>
+					<lu>
+         		<clip pos="2" side="tl" part="lem"/>
+         		<clip pos="2" side="tl" part="a_adj"/>
+         		<clip pos="2" side="tl" part="pers"/>
+         		<clip pos="2" side="tl" part="gender"/>
+         		<clip pos="2" side="tl" part="nbr"/>
+					</lu>
+					<b/>
+					<lu>
+         		<clip pos="3" side="tl" part="lem"/>
+         		<clip pos="3" side="tl" part="a_n"/>
+         		<clip pos="3" side="tl" part="case"/>
+         		<clip pos="3" side="tl" part="nbr"/>
+					</lu>
+      	</out>
+    	</action>
+		</rule>
+	
+		<!-- rule no. 8 -->
+		<!-- <adjective> <adjective> <noun> -> <the> <adjective> <adjective> <noun> -->
+		<rule>
+   		<pattern>
+    		<pattern-item n="adj"/>
+    		<pattern-item n="adj"/>
+    		<pattern-item n="n"/>
+	    </pattern>
+		  <action>
+      	<out>
+					<lu>
+         		<lit v="the"/>
+						<lit-tag v="art"/>
+						<lit-tag v="def"/>
+					</lu>
+					<b/>
+					<lu>
+         		<clip pos="1" side="tl" part="lem"/>
+         		<clip pos="1" side="tl" part="a_adj"/>
+         		<clip pos="1" side="tl" part="pers"/>
+         		<clip pos="1" side="tl" part="gender"/>
+         		<clip pos="1" side="tl" part="nbr"/>
+					</lu>
+					<b/>
+					<lu>
+         		<clip pos="2" side="tl" part="lem"/>
+         		<clip pos="2" side="tl" part="a_adj"/>
+         		<clip pos="2" side="tl" part="pers"/>
+         		<clip pos="2" side="tl" part="gender"/>
+         		<clip pos="2" side="tl" part="nbr"/>
+					</lu>
+					<b/>
+					<lu>
+         		<clip pos="3" side="tl" part="lem"/>
+         		<clip pos="3" side="tl" part="a_n"/>
+         		<clip pos="3" side="tl" part="case"/>
+         		<clip pos="3" side="tl" part="nbr"/>
+					</lu>
+      	</out>
+    	</action>
+		</rule>
+		
+		<!-- rule no. 9 -->
+		<!-- <vbser/to be> <vbser/to be (past)> -> <pronoun> <vbser> -->
+		<rule>
+   		<pattern>
+    		<pattern-item n="vbser"/>
+    		<pattern-item n="vbser"/>
+	    </pattern>
+		  <action>
+      	<out>
+       		<lu>
+						<lit v="prpers"/>
+			      <lit-tag v="prn"/>
+			      <lit-tag v="subj"/>
+			      <clip pos="1" side="tl" part="pers"/>
+			      <clip pos="1" side="tl" part="nbr"/>
+			      <lit-tag v="mf"/>
+					</lu>
+					<b/>
+					<lu>
+         		<clip pos="2" side="tl" part="lem"/>
+						<clip pos="2" side="tl" part="a_verb"/>						
+				    <clip pos="2" side="tl" part="temps"/>
+				    <clip pos="2" side="tl" part="pers"/>
+				    <clip pos="2" side="tl" part="nbr"/>
+         		<clip pos="2" side="tl" part="gender"/>
+					</lu>
+      	</out>
+    	</action>
+		</rule>
+		
+		<!-- rule no. 10 -->
+		<!-- <adjective> <vbser> <adjective> -> <pronoun> <vbser/to be> <adjective> <adjective> -->
+		<rule>
+   		<pattern>
+    		<pattern-item n="adj"/>
+    		<pattern-item n="vbser"/>
+    		<pattern-item n="adj"/>
+	    </pattern>
+		  <action>
+      	<out>
+       		<lu>
+						<lit v="prpers"/>
+						<lit-tag v="prn"/>
+						<lit-tag v="subj"/>
+						<clip pos="2" side="tl" part="pers"/>
+						<clip pos="2" side="tl" part="nbr"/>
+						<lit-tag v="mf"/>
+					</lu>
+					<b/>
+					<lu>
+						<clip pos="2" side="tl" part="lem"/>
+						<clip pos="2" side="tl" part="a_verb"/>						
+				    <clip pos="2" side="tl" part="temps"/>
+				    <clip pos="2" side="tl" part="pers"/>
+				    <clip pos="2" side="tl" part="nbr"/>
+         		<clip pos="2" side="tl" part="gender"/>
+					</lu>
+					<b/>
+					<lu>
+         		<clip pos="1" side="tl" part="lem"/>
+         		<clip pos="1" side="tl" part="a_adj"/>
+         		<clip pos="1" side="tl" part="pers"/>
+         		<clip pos="1" side="tl" part="gender"/>
+         		<clip pos="1" side="tl" part="nbr"/>
+					</lu>
+					<b/>
+					<lu>
+         		<clip pos="3" side="tl" part="lem"/>
+         		<clip pos="3" side="tl" part="a_adj"/>
+         		<clip pos="3" side="tl" part="pers"/>
+         		<clip pos="3" side="tl" part="gender"/>
+         		<clip pos="3" side="tl" part="nbr"/>
+					</lu>
+      	</out>
+    	</action>
+		</rule>		
+
+		<!-- rule no. 11 -->
+		<!-- <vbhaver> <particle> <conj> <noun> <noun> -> <do> <noun> <vbhaver> <a> <noun> -->
+		<rule>
+   		<pattern>
+    		<pattern-item n="verb"/>
+    		<pattern-item n="part"/>
+    		<pattern-item n="conj"/>
+    		<pattern-item n="nom"/>
+    		<pattern-item n="n"/>
+	    </pattern>
+		  <action>
+      	<out>
+       		<lu>
+						<lit v="do"/>
+						<lit-tag v="vblex"/>
+						<lit-tag v="pres"/>
+						<clip pos="1" side="tl" part="pers"/>
+						<clip pos="1" side="tl" part="nbr"/>
+						<clip pos="1" side="tl" part="gender"/>
+					</lu>
+					<b/>
+					<lu>
+						<clip pos="4" side="tl" part="lem"/>
+						<clip pos="4" side="tl" part="a_nom"/>						
+				    <clip pos="4" side="tl" part="case"/>
+				    <clip pos="4" side="tl" part="nbr"/>
+					</lu>
+					<b/>
+					<lu>
+         		<clip pos="1" side="tl" part="lem"/>
+         		<clip pos="1" side="tl" part="a_verb"/>
+         		<clip pos="1" side="tl" part="temps"/>
+         		<clip pos="1" side="tl" part="pers"/>
+						<lit-tag v="pl"/>
+         		<clip pos="1" side="tl" part="gender"/>
+					</lu>
+					<b/>
+					<lu>
+         		<lit v="a"/>
+						<lit-tag v="art"/>
+						<lit-tag v="def"/>
+					</lu>
+					<b/>
+					<lu>
+						<clip pos="5" side="tl" part="lem"/>
+						<clip pos="5" side="tl" part="a_nom"/>						
+				    <clip pos="5" side="tl" part="case"/>
+				    <clip pos="5" side="tl" part="nbr"/>
+					</lu>
+      	</out>
+    	</action>
+		</rule>		
+
+		<!-- rule no. 12 -->
+		<!-- <verb> <particle> -> <do> <prpers> <verb> -->
+		<rule>
+   		<pattern>
+    		<pattern-item n="verb"/>
+    		<pattern-item n="part"/>
+	    </pattern>
+		  <action>
+      	<out>
+       		<lu>
+						<lit v="do"/>
+						<lit-tag v="vblex"/>
+						<lit-tag v="pres"/>
+						<clip pos="1" side="tl" part="pers"/>
+						<clip pos="1" side="tl" part="nbr"/>
+						<clip pos="1" side="tl" part="gender"/>
+					</lu>
+					<b/>
+					<lu>
+						<lit v="prpers"/>
+						<lit-tag v="prn"/>
+						<lit-tag v="subj"/>
+						<clip pos="1" side="tl" part="pers"/>
+						<clip pos="1" side="tl" part="nbr"/>
+						<lit-tag v="mf"/>
+					</lu>					
+					<b/>
+       		<lu>
+						<clip pos="1" side="tl" part="lem"/>
+						<clip pos="1" side="tl" part="a_verb"/>
+						<clip pos="1" side="tl" part="temps"/>
+						<clip pos="1" side="tl" part="pers"/>
+						<clip pos="1" side="tl" part="nbr"/>
+         		<clip pos="1" side="tl" part="gender"/>
+					</lu>
+      	</out>
+    	</action>
+		</rule>		
+		
+		<!-- rule no. 13 -->
+		<rule>
+   		<pattern>
+    		<pattern-item n="vbmod"/>
+    		<pattern-item n="part"/>
+	    </pattern>
+		  <action>
+      	<out>
+       		<lu>
+						<clip pos="1" side="tl" part="lem"/>
+						<clip pos="1" side="tl" part="a_verb"/>
+						<clip pos="1" side="tl" part="a_pol"/>
+						<clip pos="1" side="tl" part="temps"/>
+						<clip pos="1" side="tl" part="pers"/>
+						<clip pos="1" side="tl" part="nbr"/>
+					</lu>
+      	</out>
+    	</action>
+		</rule>		
+	
+		<!-- rule no. 14 -->
+		<!-- <vbser> <noun> -> <vbser> <a> <noun> -->
+		<rule>
+   		<pattern>
+    		<pattern-item n="vbser"/>
+    		<pattern-item n="n"/>
+	    </pattern>
+		  <action>
+      	<out>
+					<lu>
+						<lit v="prpers"/>
+						<lit-tag v="prn"/>
+						<lit-tag v="subj"/>
+						<clip pos="1" side="tl" part="pers"/>
+						<clip pos="1" side="tl" part="nbr"/>
+						<lit-tag v="mf"/>
+					</lu>					
+					<b/>
+       		<lu>
+						<clip pos="1" side="tl" part="lem"/>
+						<clip pos="1" side="tl" part="a_verb"/>
+						<clip pos="1" side="tl" part="temps"/>
+						<clip pos="1" side="tl" part="pers"/>
+						<clip pos="1" side="tl" part="nbr"/>
+						<clip pos="1" side="tl" part="gender"/>
+					</lu>			
+					<b/>
+					<lu>
+						<lit v="a"/>
+						<lit-tag v="art"/>
+						<lit-tag v="def"/>
+					</lu>		
+					<b/>
+       		<lu>
+						<clip pos="2" side="tl" part="lem"/>
+						<clip pos="2" side="tl" part="a_n"/>
+						<clip pos="2" side="tl" part="case"/>
+						<clip pos="2" side="tl" part="nbr"/>
+					</lu>
+      	</out>
+    	</action>
+		</rule>		
+	
+		<!-- rule no. 15 -->
+		<rule>
+   		<pattern>
+    		<pattern-item n="probj"/>
+    		<pattern-item n="vbmod"/>
+    		<pattern-item n="adv"/>
+    		<pattern-item n="vblex"/>
+	    </pattern>
+		  <action>
+      	<out>
+					<lu>
+						<lit v="prpers"/>
+						<lit-tag v="prn"/>
+						<lit-tag v="subj"/>
+						<clip pos="1" side="tl" part="pers"/>
+						<clip pos="1" side="tl" part="nbr"/>
+						<lit-tag v="f"/>
+					</lu>					
+					<b/>
+       		<lu>
+						<clip pos="2" side="tl" part="lem"/>
+						<clip pos="2" side="tl" part="a_verb"/>
+						<clip pos="2" side="tl" part="a_pol"/>
+						<clip pos="2" side="tl" part="temps"/>
+						<clip pos="2" side="tl" part="pers"/>
+						<clip pos="2" side="tl" part="nbr"/>
+					</lu>			
+					<b/>
+					<lu>
+						<clip pos="4" side="tl" part="lem"/>
+						<clip pos="4" side="tl" part="a_verb"/>
+						<clip pos="4" side="tl" part="temps"/>
+						<clip pos="4" side="tl" part="pers"/>
+						<clip pos="4" side="tl" part="nbr"/>
+						<clip pos="4" side="tl" part="gender"/>
+					</lu>			
+					<b/>
+					<lu>
+						<clip pos="1" side="tl" part="lem"/>
+						<clip pos="1" side="tl" part="a_probj"/>
+						<clip pos="1" side="tl" part="pers"/>
+						<clip pos="1" side="tl" part="nbr"/>
+						<clip pos="1" side="tl" part="gender"/>
+					</lu>	
+					<b/>
+       		<lu>
+						<clip pos="3" side="tl" part="lem"/>
+						<clip pos="3" side="tl" part="a_adv"/>
+						<clip pos="3" side="tl" part="adv_type"/>
+					</lu>
+      	</out>
+    	</action>
+		</rule>	
+
+		<!-- rule no. 16 -->	
+		<!-- <pr> <vbser> <noun> -> <pr> <the> <noun> <vbser> -->
+		<rule>
+   		<pattern>
+    		<pattern-item n="pr"/>
+    		<pattern-item n="vbser"/>
+    		<pattern-item n="n"/>
+	    </pattern>
+		  <action>
+      	<out>
+       		<lu>
+						<clip pos="1" side="tl" part="lem"/>
+         		<clip pos="1" side="tl" part="a_pr"/>
+         		<clip pos="1" side="tl" part="pr_role"/>
+					</lu>
+					<b/>
+					<lu>
+						<lit v="the"/>
+						<lit-tag v="art"/>
+						<lit-tag v="def"/>
+         		<clip pos="1" side="tl" part="art"/>
+         		<clip pos="1" side="tl" part="def"/>
+					</lu>
+					<b/>
+					<lu>
+         		<clip pos="3" side="tl" part="lem"/>
+         		<clip pos="3" side="tl" part="a_n"/>
+         		<clip pos="3" side="tl" part="case"/>
+         		<clip pos="3" side="tl" part="nbr"/>
+					</lu>
+					<b/>
+					<lu>
+         		<clip pos="2" side="tl" part="lem"/>
+						<clip pos="2" side="tl" part="a_verb"/>						
+				    <clip pos="2" side="tl" part="temps"/>
+				    <clip pos="2" side="tl" part="pers"/>
+				    <clip pos="2" side="tl" part="nbr"/>
+         		<clip pos="2" side="tl" part="gender"/>
+					</lu>
+      	</out>
+    	</action>
+		</rule>
+	
+		<!-- rule no. 17 -->
+		<!-- <pnoun> <vbser> <adjective> <noun> -> <noun> <vbser> <a> <adjective> <noun> -->
+		<rule>
+			 <pattern>
+				 <pattern-item n="np"/>
+				 <pattern-item n="vbser"/>
+				 <pattern-item n="adj"/>
+				 <pattern-item n="n"/>
+			 </pattern>
+			 <action>
+				 <out>
+				   <lu>
+				     <clip pos="1" side="tl" part="lem"/>
+          	 <clip pos="1" side="tl" part="a_np"/>
+         		 <clip pos="1" side="tl" part="case"/>
+         		 <clip pos="1" side="tl" part="nbr"/>
+				   </lu>
+				   <b/>
+				   <lu>
+				     <clip pos="2" side="tl" part="lem"/>
+						 <clip pos="2" side="tl" part="a_verb"/>						
+				     <clip pos="2" side="tl" part="temps"/>
+				     <clip pos="2" side="tl" part="pers"/>
+				     <clip pos="2" side="tl" part="nbr"/>
+         		<clip pos="2" side="tl" part="gender"/>
+				   </lu>
+					 <b/>	
+				   <lu>
+				     <lit v="a"/>
+						 <lit-tag v="art"/>
+						 <lit-tag v="def"/>
+				   </lu>
+					 <b/>	
+					 <lu>
+         		<clip pos="3" side="tl" part="lem"/>
+         		<clip pos="3" side="tl" part="a_adj"/>
+         		<clip pos="3" side="tl" part="pers"/>
+         		<clip pos="3" side="tl" part="gender"/>
+         		<clip pos="3" side="tl" part="nbr"/>
+					 </lu>
+					 <b/>	
+					 <lu>	
+				     <clip pos="4" side="tl" part="lem"/>
+          	 <clip pos="4" side="tl" part="a_n"/>
+         		 <clip pos="4" side="tl" part="case"/>
+         		 <clip pos="4" side="tl" part="nbr"/>
+				   </lu>
+				 </out>
+			 </action>
+		</rule>
+		
+		<!-- rule no. 18 -->
+		<!-- <noun> <vbser> -> <the> <noun> <vbser> -->
+		<rule>
+			 <pattern>
+				 <pattern-item n="n"/>
+				 <pattern-item n="vbser"/>
+			 </pattern>
+			 <action>
+				 <out>
+					 <lu>
+				     <lit v="the"/>
+						 <lit-tag v="art"/>
+						 <lit-tag v="def"/>
+				   </lu>
+					 <b/>	
+				   <lu>
+				     <clip pos="1" side="tl" part="lem"/>
+          	 <clip pos="1" side="tl" part="a_n"/>
+         		 <clip pos="1" side="tl" part="case"/>
+         		 <clip pos="1" side="tl" part="nbr"/>
+				   </lu>
+				   <b/>
+				   <lu>
+				     <clip pos="2" side="tl" part="lem"/>
+						 <clip pos="2" side="tl" part="a_verb"/>						
+				     <clip pos="2" side="tl" part="temps"/>
+				     <clip pos="2" side="tl" part="pers"/>
+				     <clip pos="2" side="tl" part="nbr"/>
+          	 <clip pos="2" side="tl" part="gender"/>
+				   </lu>
+				 </out>
+			 </action>
+		</rule>
+
+		<!-- rule no. 19 -->
+		<!-- <pnoun> <vbhaver> -> <noun> <vbhaver> <a>  -->
+		<rule>
+			 <pattern>
+				 <pattern-item n="np"/>
+				 <pattern-item n="vbhaver"/>
+			 </pattern>
+			 <action>
+				 <out>
+				   <lu>
+				     <clip pos="1" side="tl" part="lem"/>
+          	 <clip pos="1" side="tl" part="a_np"/>
+         		 <clip pos="1" side="tl" part="case"/>
+         		 <clip pos="1" side="tl" part="nbr"/>
+				   </lu>
+				   <b/>
+				   <lu>
+				     <clip pos="2" side="tl" part="lem"/>
+						 <clip pos="2" side="tl" part="a_verb"/>						
+				     <clip pos="2" side="tl" part="temps"/>
+				     <clip pos="2" side="tl" part="pers"/>
+				     <clip pos="2" side="tl" part="nbr"/>
+          	 <clip pos="2" side="tl" part="gender"/>
+				   </lu>
+					 <b/>	
+					 <lu>
+				     <lit v="a"/>
+						 <lit-tag v="art"/>
+						 <lit-tag v="def"/>
+				   </lu>
+				 </out>
+			 </action>
+		</rule>
+		
+		<!-- rule no. 20 -->
+		<!-- <pnoun> <vbhaver> -> <noun> <vbhaver> <a>  -->
+		<rule>
+			 <pattern>
+				 <pattern-item n="n"/>
+				 <pattern-item n="vblex"/>
+			 </pattern>
+			 <action>
+				 <out>
+					 <lu>
+				     <lit v="the"/>
+						 <lit-tag v="art"/>
+						 <lit-tag v="def"/>
+				   </lu>
+					 <b/>	
+				   <lu>
+				     <clip pos="1" side="tl" part="lem"/>
+          	 <clip pos="1" side="tl" part="a_n"/>
+         		 <clip pos="1" side="tl" part="case"/>
+         		 <clip pos="1" side="tl" part="nbr"/>
+				   </lu>
+				   <b/>
+				   <lu>
+				     <clip pos="2" side="tl" part="lem"/>
+						 <clip pos="2" side="tl" part="a_verb"/>						
+				     <clip pos="2" side="tl" part="temps"/>
+				     <clip pos="2" side="tl" part="pers"/>
+				     <clip pos="2" side="tl" part="nbr"/>
+         		 <clip pos="2" side="tl" part="gender"/>
+				   </lu>
+				 </out>
+			 </action>
+		</rule>
+	
+		<!-- rule no. 21 -->
+		<rule>
+			 <pattern>
+				 <pattern-item n="np"/>
+				 <pattern-item n="vblex"/>
+			 </pattern>
+			 <action>
+				<choose>
+				 	<when>
+						<test>
+							<equal>
+								<clip pos="2" side="tl" part="lem"/>
+						    <lit v="do"/>
+							</equal>
+						</test>
+							<out>
+							  <lu>	
+									<lit v="be"/>
+									<lit-tag v="vbser"/>
+									<lit-tag v="pres"/>
+									<lit-tag v="p3"/>
+									<lit-tag v="sg"/>
+							 </lu>
+							 <b/>
+							 <lu>	
+									<lit v="prpers"/>
+									<lit-tag v="prn"/>
+									<lit-tag v="subj"/>
+									<lit-tag v="p3"/>
+									<lit-tag v="sg"/>
+									<lit-tag v="m"/>
+							 </lu>
+							 <b/>
+							 <lu>	
+									<lit v="do"/>
+									<lit-tag v="vblex"/>
+									<lit-tag v="prcont"/>
+									<lit-tag v="p3"/>
+									<lit-tag v="sg"/>
+									<lit-tag v="m"/>
+							 </lu>
+					 	 </out>
+					</when>
+					<otherwise>
+					 <out>
+						 <lu>
+						   <clip pos="1" side="tl" part="lem"/>
+		        	 <clip pos="1" side="tl" part="a_np"/>
+		       		 <clip pos="1" side="tl" part="case"/>
+		       		 <clip pos="1" side="tl" part="nbr"/>
+						 </lu>
+						 <b/>
+						 <lu>
+						   <clip pos="2" side="tl" part="lem"/>
+							 <clip pos="2" side="tl" part="a_verb"/>						
+						   <clip pos="2" side="tl" part="temps"/>
+						   <clip pos="2" side="tl" part="pers"/>
+						   <clip pos="2" side="tl" part="nbr"/>
+		       		<clip pos="2" side="tl" part="gender"/>
+						 </lu>
+					 </out>
+					</otherwise>	
+				</choose>
+			 </action>
+		</rule>
+
+		<!-- rule no. 22 -->
+		<rule>
+			 <pattern>
+				 <pattern-item n="prn.pos"/>
+				 <pattern-item n="vbser"/>
+				 <pattern-item n="n"/>
+			 </pattern>
+			 <action>
+				 <out>
+				   <lu>
+				     <lit v="prn.pos"/>
+				     <lit-tag v="prn.pos"/>
+				     <clip pos="1" side="tl" part="pers"/>
+				     <clip pos="1" side="tl" part="nbr"/>
+				     <clip pos="1" side="tl" part="gender"/>
+				   </lu>
+				   <b/>
+				   <lu>
+				     <clip pos="3" side="tl" part="lem"/>
+				     <clip pos="3" side="tl" part="a_n"/>
+				     <clip pos="3" side="tl" part="case"/>
+				     <clip pos="3" side="tl" part="nbr"/>
+				   </lu>
+				   <b/>
+				   <lu>
+				     <clip pos="2" side="tl" part="lem"/>
+				     <clip pos="2" side="tl" part="a_verb"/>
+				     <clip pos="2" side="tl" part="temps"/>
+				     <clip pos="2" side="tl" part="pers"/>
+				     <clip pos="2" side="tl" part="nbr"/>
+         		<clip pos="2" side="tl" part="gender"/>
+				   </lu>
+				 </out>
+			 </action>
+		</rule>	
+
+		<!-- rule no. 23 -->
+		<rule>
+			 <pattern>
+				 <pattern-item n="vbhaver"/>
+			 </pattern>
+			 <action>
+				<out>
+					<lu>
+						 <lit v="prpers"/>
+						 <lit-tag v="prn"/>
+						 <lit-tag v="subj"/>
+				     <clip pos="1" side="tl" part="pers"/>
+				     <clip pos="1" side="tl" part="nbr"/>
+						 <lit-tag v="f"/>
+					</lu>	
+					<b/>
+					<lu>
+						 <clip pos="1" side="tl" part="lem"/>
+				     <clip pos="1" side="tl" part="a_verb"/>
+				     <clip pos="1" side="tl" part="temps"/>
+				     <clip pos="1" side="tl" part="pers"/>
+				     <clip pos="1" side="tl" part="nbr"/>
+         		<clip pos="1" side="tl" part="gender"/>
+					 </lu>	
+					 <b/>
+					 <lu>
+						 <lit v="a"/>
+						 <lit-tag v="art"/>
+						 <lit-tag v="def"/>
+					 </lu>	
+					</out>
+			</action>
+		</rule>
+	
+		<!-- rule no. 24 -->
+		<rule>
+			 <pattern>
+				 <pattern-item n="prpers"/>
+				 <pattern-item n="verb"/>
+				 <pattern-item n="n"/>
+			 </pattern>
+			 <action>
+				<out>
+					<lu>
+						 <lit v="prpers"/>
+						 <lit-tag v="prn"/>
+						 <lit-tag v="subj"/>
+				     <clip pos="1" side="tl" part="pers"/>
+				     <clip pos="1" side="tl" part="nbr"/>
+				     <clip pos="1" side="tl" part="gender"/>
+					</lu>	
+					<b/>
+					<lu>
+						 <clip pos="2" side="tl" part="lem"/>
+				     <clip pos="2" side="tl" part="a_verb"/>
+				     <clip pos="2" side="tl" part="temps"/>
+				     <clip pos="2" side="tl" part="pers"/>
+				     <clip pos="2" side="tl" part="nbr"/>
+         		<clip pos="2" side="tl" part="gender"/>
+					 </lu>	
+					<b/>
+					<lu>
+						 <lit v="a"/>
+						 <lit-tag v="art"/>
+						 <lit-tag v="def"/>
+					 </lu>	
+					<b/>
+					<lu>
+						 <clip pos="3" side="tl" part="lem"/>
+				     <clip pos="3" side="tl" part="a_n"/>
+				     <clip pos="3" side="tl" part="case"/>
+				     <clip pos="3" side="tl" part="nbr"/>
+					 </lu>	
+					</out>
+			</action>
+		</rule>	
+		
+		<!-- rule no. 25 -->
+		<!-- adv + verb -> noun + verb -->
+		<rule>
+			 <pattern>
+					<pattern-item n="adv"/>
+				  <pattern-item n="vbser"/>
+			 </pattern>
+			 <action>
+				 <out>
+				   <lu>
+						 <clip pos="1" side="tl" part="lem"/>
+				     <clip pos="1" side="tl" part="a_adv"/>
+				     <clip pos="1" side="tl" part="adv_type"/>
+				   </lu>
+				   <b/>
+				   <lu>
+				     <clip pos="2" side="tl" part="lem"/>
+				     <clip pos="2" side="tl" part="a_verb"/>
+				     <clip pos="2" side="tl" part="temps"/>
+				     <clip pos="2" side="tl" part="pers"/>
+				     <clip pos="2" side="tl" part="nbr"/>
+         		<clip pos="2" side="tl" part="gender"/>
+				   </lu>
+				 </out>
+			 </action>
+		</rule>
+
+		<!-- rule no. 26 -->
+		<!-- verb -> prn + verb -->
+		<rule>
+			 <pattern>
+				 <pattern-item n="vblex"/>
+				 <pattern-item n="n"/>
+			 </pattern>
+			 <action>
+				 <out>
+				   <lu>
+						 <lit v="prpers"/>
+						 <lit-tag v="prn"/>
+						 <lit-tag v="subj"/>
+						 <clip pos="1" side="tl" part="pers"/>
+				     <clip pos="1" side="tl" part="nbr"/>
+ 						 <lit-tag v="f"/>
+				   </lu>
+				   <b/>
+				   <lu>
+				     <clip pos="1" side="tl" part="lem"/>
+				     <clip pos="1" side="tl" part="a_verb"/>
+				     <clip pos="1" side="tl" part="temps"/>
+				     <clip pos="1" side="tl" part="pers"/>
+				     <clip pos="1" side="tl" part="nbr"/>
+         	 	 <clip pos="1" side="tl" part="gender"/>
+				   </lu>
+					 <b/>
+					</out>
+					 <choose>
+						 <when>
+							 <test>
+								 <equal>
+									 <clip pos="2" side="tl" part="nbr"/>
+									 <lit v="pl"/>
+								 </equal>
+							 </test>
+							 <out>
+								 <lu>
+								   <lit v="the"/>
+								   <lit-tag v="art"/>
+								   <lit-tag v="def"/>
+				   			 </lu>
+							 </out>
+						 </when>
+						 <otherwise>
+						   <out>
+							   <lu>
+								   <lit v="the"/>
+								   <lit-tag v="art"/>
+							 	   <lit-tag v="def"/>
+						 	   </lu>
+						   </out>
+						 </otherwise>
+					 </choose>
+ 					<out>
+					 <b/>
+					 <lu>
+				     <clip pos="2" side="tl" part="lem"/>
+				     <clip pos="2" side="tl" part="a_n"/>
+				     <clip pos="2" side="tl" part="case"/>
+				     <clip pos="2" side="tl" part="nbr"/>
+				   </lu>
+				 </out>
+			 </action>
+		</rule>
+
+		<!-- rule no. 27 -->
+		<rule>
+			 <pattern>
+				 <pattern-item n="vbser"/>
+				 <pattern-item n="np"/>
+			 </pattern>
+			 <action>
+				 <out>
+				   <lu>
+						 <lit v="prpers"/>
+						 <lit-tag v="prn"/>
+						 <lit-tag v="subj"/>
+						 <clip pos="1" side="tl" part="pers"/>
+				     <clip pos="1" side="tl" part="nbr"/>
+ 						 <lit-tag v="mf"/>
+				   </lu>
+				   <b/>
+				   <lu>
+				     <clip pos="1" side="tl" part="lem"/>
+				     <clip pos="1" side="tl" part="a_verb"/>
+				     <clip pos="1" side="tl" part="temps"/>
+				     <clip pos="1" side="tl" part="pers"/>
+				     <clip pos="1" side="tl" part="nbr"/>
+         	 	 <clip pos="1" side="tl" part="gender"/>
+				   </lu>
+					 <b/>
+					 <lu>
+				     <clip pos="2" side="tl" part="lem"/>
+				     <clip pos="2" side="tl" part="a_n"/>
+				     <clip pos="2" side="tl" part="case"/>
+				     <clip pos="2" side="tl" part="nbr"/>
+				   </lu>
+				 </out>
+			 </action>
+		</rule>
+		
+		<!-- rule no. 28 -->
+		<rule>
+			 <pattern>
+				 <pattern-item n="vblex"/>
+				 <pattern-item n="conj"/>
+			 </pattern>
+			 <action>
+				 <out>
+				   <lu>
+						 <lit v="prpers"/>
+						 <lit-tag v="prn"/>
+						 <lit-tag v="subj"/>
+						 <clip pos="1" side="tl" part="pers"/>
+				     <clip pos="1" side="tl" part="nbr"/>
+ 						 <lit-tag v="f"/>
+				   </lu>
+					 <b/>	
+					 <lu>
+				     <lit v="also"/>
+						 <lit-tag v="conj"/>
+						 <lit-tag v="conj"/>
+				   </lu>
+				   <b/>
+				   <lu>
+				     <clip pos="1" side="tl" part="lem"/>
+				     <clip pos="1" side="tl" part="a_verb"/>
+				     <clip pos="1" side="tl" part="temps"/>
+				     <clip pos="1" side="tl" part="pers"/>
+				     <clip pos="1" side="tl" part="nbr"/>
+         	 	 <clip pos="1" side="tl" part="gender"/>
+				   </lu>
+					 
+				 </out>
+			 </action>
+		</rule>
+
+		<!-- rule no. 29 -->
+		<rule>
+			 <pattern>
+				 <pattern-item n="vblex"/>
+				 <pattern-item n="np"/>
+			 </pattern>
+			 <action>
+				 <out>
+				   <lu>
+						 <lit v="prpers"/>
+						 <lit-tag v="prn"/>
+						 <lit-tag v="subj"/>
+						 <clip pos="1" side="tl" part="pers"/>
+				     <clip pos="1" side="tl" part="nbr"/>
+ 						 <lit-tag v="f"/>
+				   </lu>
+				   <b/>
+				   <lu>
+				     <clip pos="1" side="tl" part="lem"/>
+				     <clip pos="1" side="tl" part="a_verb"/>
+				     <clip pos="1" side="tl" part="temps"/>
+				     <clip pos="1" side="tl" part="pers"/>
+				     <clip pos="1" side="tl" part="nbr"/>
+         		 <clip pos="1" side="tl" part="gender"/>
+				   </lu>
+					 <b/>
+					 <lu>
+				     <clip pos="2" side="tl" part="lem"/>
+				     <clip pos="2" side="tl" part="a_np"/>
+				     <clip pos="2" side="tl" part="case"/>
+				     <clip pos="2" side="tl" part="nbr"/>
+				   </lu>
+				 </out>
+			 </action>
+		</rule>
+		
+		<!-- rule no. 30 -->
+		<rule>
+			 <pattern>
+				 <pattern-item n="vblex"/>
+				 <pattern-item n="vblex"/>
+			 </pattern>
+			 <action>
+				 <out>
+				   <lu>
+						 <clip pos="1" side="tl" part="lem"/>
+				     <clip pos="1" side="tl" part="a_verb"/>
+						 <lit-tag v="prcont"/>
+				     <clip pos="1" side="tl" part="pers"/>
+				     <clip pos="1" side="tl" part="nbr"/>
+         		 <clip pos="1" side="tl" part="gender"/>
+				   </lu>
+					 <b/>
+					 <lu>
+				     <lit v="to"/>
+				     <lit-tag v="adv"/>
+				     <lit-tag v="itg"/>
+				   </lu>
+				   <b/>
+				   <lu>
+				     <clip pos="2" side="tl" part="lem"/>
+				     <clip pos="2" side="tl" part="a_verb"/>
+				     <clip pos="2" side="tl" part="temps"/>
+				     <clip pos="2" side="tl" part="pers"/>
+				     <clip pos="2" side="tl" part="nbr"/>
+         		 <clip pos="2" side="tl" part="gender"/>
+				   </lu>
+				 </out>
+			 </action>
+		</rule>
+		
+		<!-- rule no. 31 -->
+		<!-- verb -> prn + verb -->
+		<rule>
+			 <pattern>
+				 <pattern-item n="vblex"/>
+				 <pattern-item n="adv"/>
+			 </pattern>
+			 <action>
+				 <out>
+				   <lu>
+						 <lit v="prpers"/>
+						 <lit-tag v="prn"/>
+						 <lit-tag v="subj"/>
+						 <clip pos="1" side="tl" part="pers"/>
+				     <clip pos="1" side="tl" part="nbr"/>
+ 						 <lit-tag v="f"/>
+				   </lu>
+				   <b/>
+				   <lu>
+				     <clip pos="1" side="tl" part="lem"/>
+				     <clip pos="1" side="tl" part="a_verb"/>
+				     <clip pos="1" side="tl" part="temps"/>
+				     <clip pos="1" side="tl" part="pers"/>
+				     <clip pos="1" side="tl" part="nbr"/>
+         		<clip pos="1" side="tl" part="gender"/>
+				   </lu>
+					 <b/>
+					 <lu>
+				     <clip pos="2" side="tl" part="lem"/>
+				     <clip pos="2" side="tl" part="a_adv"/>
+				     <clip pos="2" side="tl" part="adv_type"/>
+				   </lu>
+				 </out>
+			 </action>
+		</rule>
+		
+		<!-- rule no. 32 -->
+		<!-- adverb + vbser + vblex -> adv + do + prn + vblex -->
+		<rule>
+			 <pattern>
+				 <pattern-item n="adv"/>
+				 <pattern-item n="vbser"/>
+				 <pattern-item n="vblex"/>
+			 </pattern>
+			 <action>
+				 <out>
+				   <lu>
+						 <clip pos="1" side="tl" part="lem"/>
+						 <clip pos="1" side="tl" part="a_adv"/>
+						 <clip pos="1" side="tl" part="adv_type"/>
+				   </lu>
+				   <b/>
+				   <lu>
+				     <lit v="do"/>
+						 <lit-tag v="vblex"/>
+						 <lit-tag v="past"/>
+						 <clip pos="3" side="tl" part="pers"/>
+						 <clip pos="3" side="tl" part="nbr"/>
+ 						 <clip pos="3" side="tl" part="gender"/>
+				   </lu>
+					 <b/>
+				   <lu>
+				     <lit v="prpers"/>
+						 <lit-tag v="prn"/>
+						 <lit-tag v="subj"/>
+						 <clip pos="3" side="tl" part="pers"/>
+						 <clip pos="3" side="tl" part="nbr"/>
+						 <clip pos="3" side="tl" part="gender"/>
+				   </lu>
+					 <b/>
+				   <lu>
+						 <clip pos="3" side="tl" part="lem"/>
+						 <clip pos="3" side="tl" part="a_verb"/>
+						 <clip pos="3" side="tl" part="temps"/>
+						 <clip pos="3" side="tl" part="pers"/>
+						 <clip pos="3" side="tl" part="nbr"/>
+						 <clip pos="3" side="tl" part="gender"/>
+				   </lu>
+				 </out>
+			 </action>
+		</rule>
+		
+		<!-- rule no. 33 -->
+		<rule>
+			 <pattern>
+				 <pattern-item n="adv"/>
+				 <pattern-item n="vbser"/>
+				 <pattern-item n="np"/>
+				 <pattern-item n="vblex"/>
+			 </pattern>
+			 <action>
+				 <out>
+				   <lu>
+						 <clip pos="1" side="tl" part="lem"/>
+						 <clip pos="1" side="tl" part="a_adv"/>
+						 <clip pos="1" side="tl" part="adv_type"/>
+				   </lu>
+				   <b/>
+				   <lu>
+				     <lit v="do"/>
+						 <lit-tag v="vblex"/>
+						 <lit-tag v="past"/>
+						 <clip pos="4" side="tl" part="pers"/>
+						 <clip pos="4" side="tl" part="nbr"/>
+ 						 <clip pos="4" side="tl" part="gender"/>
+				   </lu>
+					 <b/>
+				   <lu>
+				     <clip pos="3" side="tl" part="lem"/>
+						 <clip pos="3" side="tl" part="a_np"/>
+						 <clip pos="3" side="tl" part="case"/>
+						 <clip pos="3" side="tl" part="nbr"/>
+				   </lu>
+					 <b/>
+				   <lu>
+						 <clip pos="4" side="tl" part="lem"/>
+						 <clip pos="4" side="tl" part="a_verb"/>
+						 <clip pos="4" side="tl" part="temps"/>
+						 <clip pos="4" side="tl" part="pers"/>
+						 <clip pos="4" side="tl" part="nbr"/>
+						 <clip pos="4" side="tl" part="gender"/>
+				   </lu>
+				 </out>
+			 </action>
+		</rule>
+
+		<!-- rule no. 34 -->
+		<rule>
+			 <pattern>
+				 <pattern-item n="vbser"/>
+				 <pattern-item n="part"/>
+				 <pattern-item n="probj"/>
+				 <pattern-item n="vblex"/>
+			 </pattern>
+			 <action>
+				 <out>
+				   <lu>
+						 <lit v="be"/>
+						 <lit-tag v="vbser"/>
+						 <lit-tag v="prperf"/>
+						 <clip pos="1" side="tl" part="pers"/>
+						 <clip pos="1" side="tl" part="nbr"/>
+				   </lu>
+				   <b/>
+				   <lu>
+				     <lit v="prpers"/>
+						 <lit-tag v="prn"/>
+						 <lit-tag v="subj"/>
+						 <clip pos="1" side="tl" part="pers"/>
+						 <clip pos="1" side="tl" part="nbr"/>
+						 <lit-tag v="mf"/>
+				   </lu>
+					 <b/>
+				   <lu>
+						 <clip pos="4" side="tl" part="lem"/>
+						 <clip pos="4" side="tl" part="a_verb"/>
+						 <clip pos="4" side="tl" part="temps"/>
+						 <clip pos="4" side="tl" part="pers"/>
+						 <clip pos="4" side="tl" part="nbr"/>
+						 <clip pos="4" side="tl" part="gender"/>
+				   </lu>
+					 <b/>
+					 <lu>
+				     <lit v="probj"/>
+						 <lit-tag v="probj"/>
+						 <clip pos="3" side="tl" part="pers"/>
+						 <clip pos="3" side="tl" part="nbr"/>
+						 <clip pos="3" side="tl" part="gender"/>
+				   </lu>
+
+				 </out>
+			 </action>
+		</rule>
+
+		<!-- rule no. 35 -->
+		<rule>
+			 <pattern>
+				 <pattern-item n="vbser"/>
+				 <pattern-item n="part"/>
+				 <pattern-item n="vblex"/>
+			 </pattern>
+			 <action>
+				<choose>
+					<when>
+						<test>
+							<equal>
+								<clip pos="2" side="tl" part="lem"/>
+								<lit v="maybe"/>
+							</equal>
+							</test>
+							<out>
+								<lu>
+									<lit v="prpers"/>
+									<lit-tag v="prn"/>
+									<lit-tag v="subj"/>
+									<clip pos="3" side="tl" part="pers"/>
+									<clip pos="3" side="tl" part="nbr"/>
+									<clip pos="3" side="tl" part="gender"/>
+								</lu>
+								<b/>
+								<lu>
+									<lit v="have"/>
+									<lit-tag v="vbhaver"/>
+									<lit-tag v="pres"/>
+									<clip pos="3" side="tl" part="pers"/>
+									<clip pos="3" side="tl" part="nbr"/>
+				 					<clip pos="3" side="tl" part="gender"/>
+								</lu>
+								<b/>
+								<lu>
+									<clip pos="2" side="tl" part="lem"/>
+									<clip pos="2" side="tl" part="a_part"/>
+									<clip pos="2" side="tl" part="a_part"/>
+								</lu>
+								<b/>
+								<lu>
+									<clip pos="3" side="tl" part="lem"/>
+									<clip pos="3" side="tl" part="a_verb"/>
+									<clip pos="3" side="tl" part="temps"/>
+									<clip pos="3" side="tl" part="pers"/>
+									<clip pos="3" side="tl" part="nbr"/>
+									<clip pos="3" side="tl" part="gender"/>
+								</lu>
+							</out>
+							</when>
+							<otherwise>
+								<out>
+								 <lu>
+									 <lit v="be"/>
+									 <lit-tag v="vbser"/>
+									 <lit-tag v="prperf"/>
+									 <clip pos="1" side="tl" part="pers"/>
+									 <clip pos="1" side="tl" part="nbr"/>
+								 </lu>
+								 <b/>
+								 <lu>
+									 <lit v="prpers"/>
+									 <lit-tag v="prn"/>
+									 <lit-tag v="subj"/>
+									 <clip pos="1" side="tl" part="pers"/>
+									 <clip pos="1" side="tl" part="nbr"/>
+									 <lit-tag v="mf"/>
+								 </lu>
+								 <b/>
+								 <lu>
+									 <clip pos="3" side="tl" part="lem"/>
+									 <clip pos="3" side="tl" part="a_verb"/>
+									 <clip pos="3" side="tl" part="temps"/>
+									 <clip pos="3" side="tl" part="pers"/>
+									 <clip pos="3" side="tl" part="nbr"/>
+									 <clip pos="3" side="tl" part="gender"/>
+								 </lu>
+							 </out>
+						</otherwise>
+					</choose>
+			 </action>
+		</rule>
+
+		<!-- rule no. 36 -->
+		<rule>
+			 <pattern>
+				 <pattern-item n="neg"/>
+				 <pattern-item n="vblex"/>
+				 <pattern-item n="n"/>
+			 </pattern>
+			 <action>
+				 <out>
+				   <lu>
+						 <lit v="do"/>
+						 <lit-tag v="vblex"/>
+						 <clip pos="2" side="tl" part="temps"/>
+						 <clip pos="2" side="tl" part="pers"/>
+						 <clip pos="2" side="tl" part="nbr"/>
+						 <clip pos="2" side="tl" part="gender"/>
+				   </lu>
+				   <b/>
+				   <lu>
+				     <lit v="not"/>
+				     <lit-tag v="neg"/>
+				     <lit-tag v="neg"/>
+				   </lu>
+					 <b/>
+				   <lu>
+						 <clip pos="2" side="tl" part="lem"/>
+						 <clip pos="2" side="tl" part="a_verb"/>
+						 <clip pos="2" side="tl" part="temps"/>
+						 <lit-tag v="p2"/>
+						 <clip pos="2" side="tl" part="nbr"/>
+						 <clip pos="2" side="tl" part="gender"/>
+					 </lu>
+					 <b/>
+				   <lu>
+						 <lit v="a"/>
+						 <lit-tag v="art"/>
+						 <lit-tag v="def"/>
+					 </lu>	
+					 <b/>
+	 				 <lu>
+							<clip pos="3" side="tl" part="lem"/>
+							<clip pos="3" side="tl" part="a_n"/>
+							<clip pos="3" side="tl" part="case"/>
+							<clip pos="3" side="tl" part="nbr"/>
+					 </lu>					
+				 </out>
+			 </action>
+		</rule>
+
+		<!-- rule no. 37 -->
+		<rule>
+			 <pattern>
+				 <pattern-item n="probj"/>
+				 <pattern-item n="vblex"/>
+			 </pattern>
+			 <action>
+				 <out>
+				   <lu>
+						 <clip pos="2" side="tl" part="lem"/>
+						 <clip pos="2" side="tl" part="a_verb"/>
+						 <clip pos="2" side="tl" part="temps"/>
+						 <clip pos="2" side="tl" part="pers"/>
+						 <clip pos="2" side="tl" part="nbr"/>
+						 <clip pos="2" side="tl" part="gender"/>
+				   </lu>
+				   <b/>
+	 				 <lu>
+							<clip pos="1" side="tl" part="lem"/>
+							<clip pos="1" side="tl" part="a_probj"/>
+							<clip pos="1" side="tl" part="pers"/>
+							<clip pos="1" side="tl" part="nbr"/>
+							<clip pos="1" side="tl" part="gender"/>
+					 </lu>					
+				 </out>
+			 </action>
+		</rule>
+		
+		<!-- rule no. 38 -->
+		<rule>
+			 <pattern>
+				 <pattern-item n="vbmod"/>
+				 <pattern-item n="vblex"/>
+			 </pattern>
+			 <action>
+				 <out>
+				   <lu>
+						 <clip pos="1" side="tl" part="lem"/>
+						 <clip pos="1" side="tl" part="a_verb"/>
+						 <clip pos="1" side="tl" part="pol"/>
+						 <clip pos="1" side="tl" part="temps"/>
+						 <clip pos="1" side="tl" part="pers"/>
+						 <clip pos="1" side="tl" part="nbr"/>
+				   </lu>
+				   <b/>
+	 				 <lu>
+							<clip pos="2" side="tl" part="lem"/>
+						 <clip pos="2" side="tl" part="a_verb"/>
+						 <clip pos="2" side="tl" part="temps"/>
+						 <clip pos="2" side="tl" part="pers"/>
+						 <clip pos="2" side="tl" part="nbr"/>
+						 <clip pos="2" side="tl" part="gender"/>
+					 </lu>					
+				 </out>
+			 </action>
+		</rule>
+
+		<!-- rule no. 39 -->
+		<rule>
+			 <pattern>
+				 <pattern-item n="np"/>
+				 <pattern-item n="vbmod"/>
+			 </pattern>
+			 <action>
+				 <out>
+				   <lu>
+						 <clip pos="1" side="tl" part="lem"/>
+						 <clip pos="1" side="tl" part="a_np"/>
+						 <clip pos="1" side="tl" part="case"/>
+						 <clip pos="1" side="tl" part="nbr"/>
+				   </lu>
+				   <b/>
+	 				 <lu>
+						 <clip pos="2" side="tl" part="lem"/>
+						 <clip pos="2" side="tl" part="a_verb"/>
+						 <clip pos="2" side="tl" part="temps"/>
+						 <clip pos="2" side="tl" part="pers"/>
+						 <clip pos="2" side="tl" part="nbr"/>
+						 <clip pos="2" side="tl" part="gender"/>
+					 </lu>					
+				 </out>
+			 </action>
+		</rule>
+
+		<!-- rule no. 40 -->
+		<rule>
+			 <pattern>
+				 <pattern-item n="adv"/>
+				 <pattern-item n="neg"/>
+				 <pattern-item n="vblex"/>
+			 </pattern>
+			 <action>
+				<choose>
+					<when>
+						<test>
+							<equal>
+								<clip pos="1" side="tl" part="lem"/>
+								<lit v="never"/>
+							</equal>
+						</test>
+						<out>	
+						 <lu>
+							 <clip pos="1" side="tl" part="lem"/>
+							 <clip pos="1" side="tl" part="a_adv"/>
+							 <clip pos="1" side="tl" part="adv_type"/>
+						 </lu>
+						 <b/>
+						 <lu>
+					 		 <clip pos="3" side="tl" part="lem"/>
+							 <clip pos="3" side="tl" part="a_verb"/>
+							 <clip pos="3" side="tl" part="temps"/>
+							 <clip pos="3" side="tl" part="pers"/>
+							 <clip pos="3" side="tl" part="nbr"/>
+							 <clip pos="3" side="tl" part="gender"/>
+						 </lu>
+						 <b/>
+						 <lu>
+							 <lit v="a"/>
+							 <lit-tag v="art"/>
+							 <lit-tag v="def"/>
+						 </lu>
+						</out>
+					</when>
+					<otherwise>
+					 <out>
+						 <lu>
+							 <lit v="do"/>
+							 <lit-tag v="vblex"/>
+							 <clip pos="2" side="tl" part="temps"/>
+							 <clip pos="2" side="tl" part="pers"/>
+							 <clip pos="2" side="tl" part="nbr"/>
+							 <clip pos="2" side="tl" part="gender"/>
+						 </lu>
+						 <b/>
+						 <lu>
+						   <lit v="not"/>
+						   <lit-tag v="neg"/>
+						   <lit-tag v="neg"/>
+						 </lu>
+						 <b/>
+						 <lu>
+							 <clip pos="2" side="tl" part="lem"/>
+							 <clip pos="2" side="tl" part="a_verb"/>
+							 <clip pos="2" side="tl" part="temps"/>
+							 <lit-tag v="p2"/>
+							 <clip pos="2" side="tl" part="nbr"/>
+							 <clip pos="2" side="tl" part="gender"/>
+						 </lu>			
+						</out>
+					</otherwise>
+				</choose>
+			 </action>
+		</rule>
+
+		<!-- rule no. 41 -->
+		<rule>
+			 <pattern>
+				 <pattern-item n="neg"/>
+				 <pattern-item n="vblex"/>
+			 </pattern>
+			 <action>
+				 <out>
+				   <lu>
+						 <lit v="do"/>
+						 <lit-tag v="vblex"/>
+						 <clip pos="2" side="tl" part="temps"/>
+						 <clip pos="2" side="tl" part="pers"/>
+						 <clip pos="2" side="tl" part="nbr"/>
+						 <clip pos="2" side="tl" part="gender"/>
+				   </lu>
+				   <b/>
+				   <lu>
+				     <lit v="not"/>
+				     <lit-tag v="neg"/>
+				     <lit-tag v="neg"/>
+				   </lu>
+					 <b/>
+				   <lu>
+						 <clip pos="2" side="tl" part="lem"/>
+						 <clip pos="2" side="tl" part="a_verb"/>
+						 <clip pos="2" side="tl" part="temps"/>
+						 <lit-tag v="p2"/>
+						 <clip pos="2" side="tl" part="nbr"/>
+						 <clip pos="2" side="tl" part="gender"/>
+					 </lu>			
+				 </out>
+			 </action>
+		</rule>
+
+		<rule>
+			 <pattern>
+				 <pattern-item n="neg"/>
+				 <pattern-item n="vblex"/>
+				 <pattern-item n="vblex"/>
+			 </pattern>
+			 <action>
+				 <out>
+				   <lu>
+						 <lit v="do"/>
+						 <lit-tag v="vblex"/>
+						 <clip pos="2" side="tl" part="temps"/>
+						 <clip pos="2" side="tl" part="pers"/>
+						 <clip pos="2" side="tl" part="nbr"/>
+						 <clip pos="2" side="tl" part="gender"/>
+				   </lu>
+				   <b/>
+				   <lu>
+				     <lit v="not"/>
+				     <lit-tag v="neg"/>
+				     <lit-tag v="neg"/>
+				   </lu>
+					 <b/>
+				   <lu>
+						 <clip pos="2" side="tl" part="lem"/>
+						 <clip pos="2" side="tl" part="a_verb"/>
+						 <clip pos="2" side="tl" part="temps"/>
+						 <lit-tag v="p2"/>
+						 <clip pos="2" side="tl" part="nbr"/>
+						 <clip pos="2" side="tl" part="gender"/>
+					 </lu>	
+					 <b/>
+				   <lu>
+						 <lit v="to"/>
+						 <lit-tag v="adv"/>
+						 <lit-tag v="itg"/>
+					 </lu>	
+					 <b/>
+				   <lu>
+						 <clip pos="3" side="tl" part="lem"/>
+						 <clip pos="3" side="tl" part="a_verb"/>
+						 <lit-tag v="inf"/>
+						 <lit-tag v="p1"/>
+						 <lit-tag v="sp"/>
+						 <lit-tag v="mf"/>
+					 </lu>					
+				 </out>
+			 </action>
+		</rule>
+
+		<rule>
+			 <pattern>
+				 <pattern-item n="vblex"/>
+				 <pattern-item n="vbser"/>
+			 </pattern>
+			 <action>
+				 <out>
+				   <lu>
+						 <lit v="prpers"/>
+						 <lit-tag v="prn"/>
+						 <lit-tag v="subj"/>
+						 <clip pos="2" side="tl" part="pers"/>
+						 <clip pos="2" side="tl" part="nbr"/>
+						 <lit-tag v="f"/>
+				   </lu>
+					 <b/>
+				   <lu>
+						 <clip pos="1" side="tl" part="lem"/>
+						 <clip pos="1" side="tl" part="a_verb"/>
+						 <lit-tag v="past"/>
+						 <clip pos="1" side="tl" part="pers"/>
+						 <clip pos="1" side="tl" part="nbr"/>
+						 <clip pos="1" side="tl" part="gender"/>
+					 </lu>	
+				 </out>
+			 </action>
+		</rule>
+
+		<!-- rule no. 42 -->
+		<rule>	
+			 <pattern>
+				 <pattern-item n="ref.prn"/>
+				 <pattern-item n="n"/>
+				 <pattern-item n="vblex"/>
+			 </pattern>
+			 <action>
+				 <out>
+	 				 <lu>
+							<clip pos="2" side="tl" part="lem"/>
+							<clip pos="2" side="tl" part="a_n"/>
+							<clip pos="2" side="tl" part="case"/>
+							<clip pos="2" side="tl" part="nbr"/>
+					 </lu>		
+					 <b/>
+				   <lu>
+						 <clip pos="3" side="tl" part="lem"/>
+						 <clip pos="3" side="tl" part="a_verb"/>
+						 <lit-tag v="prcont"/>
+						 <clip pos="3" side="tl" part="pers"/>
+						 <clip pos="3" side="tl" part="nbr"/>
+         		 <clip pos="3" side="tl" part="gender"/>
+					 </lu>
+				 </out>
+			 </action>
+		</rule>
+
+		<!-- rule no. 43 -->
+		<rule>
+			 <pattern>
+				 <pattern-item n="probj"/>
+				 <pattern-item n="prpers"/>
+				 <pattern-item n="vblex"/>
+			 </pattern>
+			 <action>
+				 <out>
+				   <lu>
+						 <clip pos="3" side="tl" part="lem"/>
+						 <clip pos="3" side="tl" part="a_verb"/>
+						 <clip pos="3" side="tl" part="temps"/>
+						 <clip pos="3" side="tl" part="pers"/>
+						 <clip pos="3" side="tl" part="nbr"/>
+						 <clip pos="3" side="tl" part="gender"/>
+				   </lu>
+				   <b/>
+	 				 <lu>
+							<clip pos="1" side="tl" part="lem"/>
+							<clip pos="1" side="tl" part="a_probj"/>
+							<clip pos="1" side="tl" part="pers"/>
+							<clip pos="1" side="tl" part="nbr"/>
+							<clip pos="1" side="tl" part="gender"/>
+					 </lu>
+				   <b/>
+	 				 <lu>
+							<lit v="prpers"/>
+							<lit-tag v="prn"/>
+							<lit-tag v="subj"/>
+							<clip pos="2" side="tl" part="pers"/>
+							<clip pos="2" side="tl" part="nbr"/>
+							<clip pos="2" side="tl" part="gender"/>
+					 </lu>					
+					
+				 </out>
+			 </action>
+		</rule>
+
+		<!-- rule no. 44 -->
+		<rule>
+			 <pattern>
+				 <pattern-item n="pr.prn"/>
+				 <pattern-item n="vbser"/>
+				 <pattern-item n="num"/>
+			 </pattern>
+			 <action>
+				 <out>
+				   <lu>
+						 <lit v="prpers"/>
+						 <lit-tag v="prn"/>
+						 <lit-tag v="subj"/>	
+						 <clip pos="1" side="tl" part="pers"/>
+						 <clip pos="1" side="tl" part="nbr"/>
+						 <clip pos="1" side="tl" part="gender"/>
+				   </lu>
+				   <b/>
+	 				 <lu>
+							<clip pos="2" side="tl" part="lem"/>
+							<clip pos="2" side="tl" part="a_verb"/>
+							<clip pos="2" side="tl" part="temps"/>
+							<clip pos="2" side="tl" part="pers"/>
+							<clip pos="2" side="tl" part="nbr"/>
+							<clip pos="2" side="tl" part="gender"/>
+					 </lu>
+				   <b/>
+	 				 <lu>
+							<clip pos="3" side="tl" part="lem"/>
+							<clip pos="3" side="tl" part="a_num"/>
+							<clip pos="3" side="tl" part="a_num"/>
+					 </lu>					
+				 </out>
+			 </action>
+		</rule>
+
+		<!-- rule no. 45 -->
+		<rule>
+			 <pattern>
+				 <pattern-item n="num"/>
+				 <pattern-item n="pr.prn"/>
+				 <pattern-item n="vbser"/>
+			 </pattern>
+			 <action>
+				 <out>
+				   <lu>
+						 <lit v="prpers"/>
+						 <lit-tag v="prn"/>
+						 <lit-tag v="subj"/>	
+						 <clip pos="2" side="tl" part="pers"/>
+						 <clip pos="2" side="tl" part="nbr"/>
+						 <clip pos="2" side="tl" part="gender"/>
+				   </lu>
+				   <b/>
+	 				 <lu>
+							<clip pos="3" side="tl" part="lem"/>
+							<clip pos="3" side="tl" part="a_verb"/>
+							<clip pos="3" side="tl" part="temps"/>
+							<clip pos="3" side="tl" part="pers"/>
+							<clip pos="3" side="tl" part="nbr"/>
+							<clip pos="3" side="tl" part="gender"/>
+					 </lu>
+				   <b/>
+	 				 <lu>
+							<clip pos="1" side="tl" part="lem"/>
+							<clip pos="1" side="tl" part="a_num"/>
+							<clip pos="1" side="tl" part="a_num"/>
+					 </lu>					
+				 </out>
+			 </action>
+		</rule>
+	
+		<!-- rule no. 46 -->
+		<rule>
+			 <pattern>
+				 <pattern-item n="np"/>
+				 <pattern-item n="vbser"/>
+			 </pattern>
+			 <action>
+				 <out>
+				   <lu>
+							<clip pos="1" side="tl" part="lem"/>
+							<clip pos="1" side="tl" part="a_np"/>
+							<clip pos="1" side="tl" part="case"/>
+							<clip pos="1" side="tl" part="nbr"/>
+					 </lu>	
+				   <b/>
+	 				 <lu>
+							<clip pos="2" side="tl" part="lem"/>
+							<clip pos="2" side="tl" part="a_verb"/>
+							<clip pos="2" side="tl" part="temps"/>
+							<clip pos="2" side="tl" part="pers"/>
+							<clip pos="2" side="tl" part="nbr"/>
+							<clip pos="2" side="tl" part="gender"/>
+					 </lu>
+				 </out>
+			 </action>
+		</rule>
+
+		<!-- rule no. 48 -->
+		<rule>
+			 <pattern>
+				 <pattern-item n="vbmod"/>
+			 </pattern>
+			 <action>
+				 <out>
+				   <lu>
+						 <lit v="prpers"/>
+						 <lit-tag v="prn"/>
+						 <lit-tag v="subj"/>	
+						 <clip pos="1" side="tl" part="pers"/>
+						 <clip pos="1" side="tl" part="nbr"/>
+						 <lit-tag v="f"/>	
+				   </lu>
+				   <b/>
+	 				 <lu>
+							<clip pos="1" side="tl" part="lem"/>
+							<clip pos="1" side="tl" part="a_verb"/>
+							<clip pos="1" side="tl" part="a_pol"/>
+							<clip pos="1" side="tl" part="temps"/>
+							<clip pos="1" side="tl" part="pers"/>
+							<clip pos="1" side="tl" part="nbr"/>
+					 </lu>
+				 </out>
+			 </action>
+		</rule>
+
+		<!-- rule no. 49 -->
+		<rule>
+			 <pattern>
+				 <pattern-item n="prpers"/>
+				 <pattern-item n="vbser"/>
+			 </pattern>
+			 <action>
+				 <out>
+				   <lu>
+						 <lit v="prpers"/>
+						 <lit-tag v="prn"/>
+						 <lit-tag v="subj"/>	
+						 <clip pos="1" side="tl" part="pers"/>
+						 <clip pos="1" side="tl" part="nbr"/>
+ 						 <clip pos="1" side="tl" part="gender"/>
+				   </lu>
+				   <b/>
+	 				 <lu>
+							<clip pos="2" side="tl" part="lem"/>
+							<clip pos="2" side="tl" part="a_verb"/>
+							<clip pos="2" side="tl" part="temps"/>
+							<clip pos="2" side="tl" part="pers"/>
+							<clip pos="2" side="tl" part="nbr"/>
+							<clip pos="2" side="tl" part="gender"/>
+					 </lu>
+				 </out>
+			 </action>
+		</rule>
+
+		<!-- rule no. 50 -->
+		<rule>
+			 <pattern>
+				 <pattern-item n="prpers"/>
+				 <pattern-item n="vblex"/>
+			 </pattern>
+			 <action>
+				 <out>
+				   <lu>
+						 <lit v="prpers"/>
+						 <lit-tag v="prn"/>
+						 <lit-tag v="subj"/>	
+						 <clip pos="1" side="tl" part="pers"/>
+						 <clip pos="1" side="tl" part="nbr"/>
+ 						 <clip pos="1" side="tl" part="gender"/>
+				   </lu>
+				   <b/>
+	 				 <lu>
+							<clip pos="2" side="tl" part="lem"/>
+							<clip pos="2" side="tl" part="a_verb"/>
+							<clip pos="2" side="tl" part="temps"/>
+							<clip pos="2" side="tl" part="pers"/>
+							<clip pos="2" side="tl" part="nbr"/>
+							<clip pos="2" side="tl" part="gender"/>
+					 </lu>
+				 </out>
+			 </action>
+		</rule>
+
+
+		<rule>
+			 <pattern>
+				 <pattern-item n="vblex"/>
+				 <pattern-item n="conj"/>
+				 <pattern-item n="adj"/>
+				 <pattern-item n="n"/>
+			 </pattern>
+			 <action>
+				 <out>
+				   <lu>
+						 <lit v="prpers"/>
+						 <lit-tag v="prn"/>
+						 <lit-tag v="subj"/>
+						 <clip pos="1" side="tl" part="pers"/>
+				     <clip pos="1" side="tl" part="nbr"/>
+ 						 <lit-tag v="f"/>
+				   </lu>
+					 <b/>	
+					 <lu>
+				     <lit v="also"/>
+						 <lit-tag v="conj"/>
+						 <lit-tag v="conj"/>
+				   </lu>
+				   <b/>
+				   <lu>
+				     <clip pos="1" side="tl" part="lem"/>
+				     <clip pos="1" side="tl" part="a_verb"/>
+				     <clip pos="1" side="tl" part="temps"/>
+				     <clip pos="1" side="tl" part="pers"/>
+				     <clip pos="1" side="tl" part="nbr"/>
+         	 	 <clip pos="1" side="tl" part="gender"/>
+				   </lu>
+					 <b/>
+					 <lu>
+				     <lit v="a"/>
+						 <lit-tag v="art"/>
+						 <lit-tag v="def"/>
+				   </lu>
+					 <b/>
+				   <lu>
+				     <clip pos="3" side="tl" part="lem"/>
+				     <clip pos="3" side="tl" part="a_adj"/>
+				     <clip pos="3" side="tl" part="pers"/>
+						 <clip pos="3" side="tl" part="gender"/>
+         	 	 <clip pos="3" side="tl" part="nbr"/>
+				   </lu>
+					 <b/>
+				   <lu>
+				     <clip pos="4" side="tl" part="lem"/>
+				     <clip pos="4" side="tl" part="a_n"/>
+				     <clip pos="4" side="tl" part="case"/>
+				     <clip pos="4" side="tl" part="nbr"/>
+				   </lu>
+				 </out>
+			 </action>
+		</rule>
+
+
+		<rule>
+			 <pattern>
+				 <pattern-item n="part"/>
+				 <pattern-item n="vblex"/>
+			 </pattern>
+			 <action>
+				 <out>
+				   <lu>
+						 <lit v="to"/>
+						 <lit-tag v="adv"/>
+						 <lit-tag v="itg"/>
+				   </lu>
+					 <b/>
+				   <lu>
+				     <clip pos="2" side="tl" part="lem"/>
+				     <clip pos="2" side="tl" part="a_verb"/>
+				     <clip pos="2" side="tl" part="temps"/>
+				     <clip pos="2" side="tl" part="pers"/>
+				     <clip pos="2" side="tl" part="nbr"/>
+         	 	 <clip pos="2" side="tl" part="gender"/>
+				   </lu>
+				 </out>
+			 </action>
+		</rule>
+
+		<rule>
+			 <pattern>
+				 <pattern-item n="adv"/>
+				 <pattern-item n="vblex"/>
+			 </pattern>
+			 <action>
+				 <out>
+				   <lu>
+						 <lit v="prpers"/>
+						 <lit-tag v="prn"/>
+						 <lit-tag v="subj"/>
+				     <clip pos="2" side="tl" part="pers"/>
+				     <clip pos="2" side="tl" part="nbr"/>
+				     <clip pos="2" side="tl" part="gender"/>
+				   </lu>
+					 <b/>
+				   <lu>
+				     <clip pos="2" side="tl" part="lem"/>
+				     <clip pos="2" side="tl" part="a_verb"/>
+				     <clip pos="2" side="tl" part="temps"/>
+				     <clip pos="2" side="tl" part="pers"/>
+				     <clip pos="2" side="tl" part="nbr"/>
+         	 	 <clip pos="2" side="tl" part="gender"/>
+				   </lu>
+					 <b/>
+				   <lu>
+				     <clip pos="1" side="tl" part="lem"/>
+				     <clip pos="1" side="tl" part="a_adv"/>
+				     <clip pos="1" side="tl" part="adv_type"/>
+				   </lu>
+				 </out>
+			 </action>
+		</rule>
+
+		<rule>
+			 <pattern>
+				 <pattern-item n="np"/>
+				 <pattern-item n="adv"/>
+				 <pattern-item n="vblex"/>
+			 </pattern>
+			 <action>
+				 <out>
+				   <lu>
+						 <clip pos="1" side="tl" part="lem"/>
+				     <clip pos="1" side="tl" part="a_np"/>
+				     <clip pos="1" side="tl" part="case"/>
+				     <clip pos="1" side="tl" part="nbr"/>
+				   </lu>
+					 <b/>
+				   <lu>
+				     <clip pos="3" side="tl" part="lem"/>
+				     <clip pos="3" side="tl" part="a_verb"/>
+				     <clip pos="3" side="tl" part="temps"/>
+				     <clip pos="3" side="tl" part="pers"/>
+				     <clip pos="3" side="tl" part="nbr"/>
+         	 	 <clip pos="3" side="tl" part="gender"/>
+				   </lu>
+					 <b/>
+				   <lu>
+				     <clip pos="2" side="tl" part="lem"/>
+				     <clip pos="2" side="tl" part="a_adv"/>
+				     <clip pos="2" side="tl" part="adv_type"/>
+				   </lu>
+				 </out>
+			 </action>
+		</rule>
+
+
+
+<!--
+		<rule>
+			 <pattern>
+				 <pattern-item n="vbhaver"/>
+			 </pattern>
+			 <action>
+				<choose>
+					<when>
+						<test>
+							<equals>
+								<clip pos="1" side="tl" part="lem"/>
+								<lit v="nema"/>
+							</equals>
+						</test>
+				 		<out>
+						 <lu>
+						   <lit v="do"/>
+						   <lit-tag v="vblex"/>
+						   <lit-tag v="pres"/>
+						   <clip pos="1" side="tl" part="pers"/>
+						   <clip pos="1" side="tl" part="nbr"/>
+						 </lu>	
+						</out>
+					</when>
+				</choose>
+			</action>
+		</rule>
+		-->
+	</section-rules>
+
+</transfer>

@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- -*- nxml -*- -->
+<transfer default="chunk">
+  <section-def-cats>
+    <def-cat n="nom">
+      <cat-item tags="n.*"/>
+    </def-cat>
+    <def-cat n="sent">
+      <cat-item tags="sent"/>
+    </def-cat>  
+
+    <def-cat n="n">
+      <cat-item tags="n.*"/>
+    </def-cat>
+
+    <def-cat n="np">
+      <cat-item tags="np.*"/>
+    </def-cat>
+
+    <def-cat n="prn">
+      <cat-item tags="prn"/>
+      <cat-item tags="prn.*"/>
+    </def-cat>
+
+    <def-cat n="vb">
+      <cat-item tags="vbser.*"/>
+      <cat-item tags="vblex.*"/>
+      <cat-item tags="vbhaver.*"/>
+      <cat-item tags="vbmod.*"/>
+    </def-cat>
+
+    <def-cat n="adj">
+      <cat-item tags="adj.*"/>
+    </def-cat>
+
+    <def-cat n="adj_def">
+      <cat-item tags="adj.*.*.*.*.def"/>
+    </def-cat>
+
+    <def-cat n="adv">
+      <cat-item tags="adv"/>
+      <cat-item tags="adv.*"/>
+      <cat-item tags="preadv"/>
+    </def-cat>
+
+    <def-cat n="pr">
+      <cat-item tags="pr.*"/>
+    </def-cat>
+
+    <def-cat n="conj">
+      <cat-item tags="cnjcoo"/>
+      <cat-item tags="cnjsub"/>
+      <cat-item tags="cnjcoo.*"/>
+      <cat-item tags="cnjsub.*"/>
+    </def-cat>
+
+    <def-cat n="num">
+      <cat-item tags="num"/>
+      <cat-item tags="num.*"/>
+    </def-cat>
+
+    <def-cat n="numord">
+      <cat-item tags="num.ord"/>
+      <cat-item tags="num.ord.*"/>
+    </def-cat>
+
+    <def-cat n="part">
+      <cat-item tags="part"/>
+      <cat-item tags="part.*"/>
+    </def-cat>
+
+    <def-cat n="punct">
+      <cat-item tags="sent"/>
+      <cat-item tags="cm"/>
+      <cat-item tags="lpar"/>
+      <cat-item tags="rpar"/>
+      <cat-item tags="apos"/>
+      <cat-item tags="guio"/>
+    </def-cat>
+
+    <def-cat n="cm">
+      <cat-item tags="cm"/>
+    </def-cat>
+
+    <def-cat n="apos">
+      <cat-item tags="apos"/>
+    </def-cat>
+
+    <def-cat n="guio">
+      <cat-item tags="guio"/>
+    </def-cat>
+  </section-def-cats>
+
+  <section-def-attrs>
+    <def-attr n="a_nom">
+      <attr-item tags="n"/>
+    </def-attr>
+    <def-attr n="a_cas">
+      <attr-item tags="nom"/>
+      <attr-item tags="acc"/>
+      <attr-item tags="dat"/>
+      <attr-item tags="gen"/>
+      <attr-item tags="loc"/>
+      <attr-item tags="ins"/>
+      <attr-item tags="voc"/>
+    </def-attr>
+
+    <def-attr n="a_adj">
+      <attr-item tags="adj"/>
+      <attr-item tags="adj.ord"/>
+      <attr-item tags="adj.sint"/>
+    </def-attr>
+
+    <def-attr n="a_deg">
+      <attr-item tags="pst"/>
+      <attr-item tags="comp"/>
+      <attr-item tags="sup"/>
+      <attr-item tags="ssup"/>
+    </def-attr>
+
+    <def-attr n="def">
+      <attr-item tags="def"/>
+      <attr-item tags="ind"/>
+    </def-attr>
+
+    <def-attr n="gen">
+      <attr-item tags="m"/>
+      <attr-item tags="mi"/>
+      <attr-item tags="ma"/>
+      <attr-item tags="f"/>
+      <attr-item tags="nt"/>
+    </def-attr>
+
+    <def-attr n="nbr">
+      <attr-item tags="sg"/>
+      <attr-item tags="pl"/>
+    </def-attr>
+
+  </section-def-attrs>
+  <section-def-vars>
+    <def-var n="number"/>
+    <def-var n="current_verb"/>
+  </section-def-vars>
+  <section-def-macros>
+    
+    <def-macro n="set_default_gender" npar="1">
+      <!-- The default gender for words of variable gender -->
+      <let>
+	<clip pos="1" side="tl" part="gen"/>
+	<lit-tag v="mi" />
+      </let>
+    </def-macro>
+
+    <def-macro n="set_default_case" npar="2">
+      <!-- The default case for nominal words -->
+      <let>
+	<clip pos="1" side="tl" part="cas"/>
+	<lit-tag v="nom"/>	
+      </let>
+    </def-macro>
+
+    <def-macro n="set_default_definiteness" npar="2">
+      <!-- The default case for adjectives -->
+      <let>
+	<clip pos="1" side="tl" part="a_def"/>
+	<lit-tag v="def"/>	
+      </let>
+    </def-macro>
+
+
+    <!-- Adapter for nouns, adds default case -->
+    <def-macro n="nom_adapter" npar="1">
+      <call-macro n="set_default_gender"><with-param pos="1"/></call-macro>
+      <call-macro n="set_default_case"><with-param pos="1"/></call-macro>
+      <let>
+	<clip pos="1" side="tl" part="whole"/>
+	<concat>
+	  <clip pos="1" side="tl" part="lemh"/>
+	  <clip pos="1" side="tl" part="a_nom"/>
+	  <clip pos="1" side="tl" part="gen"/>
+	  <clip pos="1" side="tl" part="nbr"/>
+	  <clip pos="1" side="tl" part="cas"/>
+	  <clip pos="1" side="tl" part="lemq"/>
+	</concat>
+      </let>
+    </def-macro>
+
+    <def-macro n="adj_adapter" npar="1">
+      <call-macro n="set_default_gender"><with-param pos="1"/></call-macro>
+      <call-macro n="set_default_case"><with-param pos="1"/></call-macro>
+      <call-macro n="set_default_definiteness"><with-param pos="1"/></call-macro>
+      <let>
+	<clip pos="1" side="tl" part="whole"/>
+	<concat>
+	  <clip pos="1" side="tl" part="lemh"/>
+	  <clip pos="1" side="tl" part="a_adj"/>
+	  <clip pos="1" side="tl" part="a_deg"/>
+	  <clip pos="1" side="tl" part="gen"/>
+	  <clip pos="1" side="tl" part="nbr"/>
+	  <clip pos="1" side="tl" part="cas"/>
+	  <clip pos="1" side="tl" part="def"/>
+	  <clip pos="1" side="tl" part="lemq"/>
+	</concat>
+      </let>
+    </def-macro>
+
+    <def-macro n="verb_adapter" npar="1">
+      <!-- TODO: -->
+      <let>
+	<clip pos="1" side="tl" part="whole"/>
+	<concat>
+	  <clip pos="1" side="tl" part="lemh"/>
+	  <clip pos="1" side="tl" part="a_vrb"/>
+	  <clip pos="1" side="tl" part="perf"/>
+	  <clip pos="1" side="tl" part="tv"/>
+	  <clip pos="1" side="tl" part="nbr"/>
+	  <clip pos="1" side="tl" part="cas"/>
+	  <clip pos="1" side="tl" part="def"/>
+	  <clip pos="1" side="tl" part="lemq"/>
+	</concat>
+      </let>
+    </def-macro>
+
+  </section-def-macros>
+
+  <section-rules>
+
+    <rule comment="REGLA: SENT">
+      <pattern>
+        <pattern-item n="sent"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="sent" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SENT"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="noun">
+      <pattern>
+	<pattern-item n="n"/>
+      </pattern>      
+      <action>
+	<call-macro n="nom_adapter"><with-param pos="1"/></call-macro>
+        <out>
+          <chunk name="n" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="N"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="vb">
+      <pattern>
+	<pattern-item n="vb"/>
+      </pattern>      
+      <action>
+	<call-macro n="verb_adapter"><with-param pos="1"/></call-macro>
+        <out>
+          <chunk name="vb" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="V"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="adj">
+      <pattern>
+	<pattern-item n="adj"/>
+      </pattern>      
+      <action>
+	<call-macro n="adj_adapter"><with-param pos="1"/></call-macro>
+        <out>
+          <chunk name="adj" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="A"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+  </section-rules>
+</transfer>

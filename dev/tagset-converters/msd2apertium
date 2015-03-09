@@ -1,0 +1,1 @@
+python src/msd2apertium.py $1

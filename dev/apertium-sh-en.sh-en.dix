@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+  <alphabet/>
+  <sdefs>
+		<sdef n="art"/>
+		<sdef n="def"/>
+		<sdef n="indef"/>
+
+		<sdef n="part"/>
+		<sdef n="ppos"/>
+		<sdef n="probj"/>
+		<sdef n="prepprn"/>
+
+		<sdef n="pos"/>
+		<sdef n="neg"/>
+
+	  <sdef n="expr"/>
+		<sdef n="comma"/>
+	  <sdef n="n"/>
+	  <sdef n="np"/>
+    <sdef n="sg"/>
+    <sdef n="sp"/>
+    <sdef n="pl"/>
+
+		<sdef n="vblex"/>
+		<sdef n="vbser"/>
+		<sdef n="vbmod"/>
+		<sdef n="vbhaver"/>
+
+		<sdef n="inf"/>
+
+		<sdef n="conj"/>
+		<sdef n="adj"/>
+		<sdef n="inst"/>
+
+		<sdef n="pri"/>
+		<sdef n="prn"/>
+		<sdef n="refl_prn"/>
+		<sdef n="subj"/>
+		<sdef n="subs"/>
+		<sdef n="adv"/>
+
+		<sdef n="pres"/>
+		<sdef n="presneg"/>
+		<sdef n="past"/>
+		<sdef n="prperf"/>
+		<sdef n="p1"/>
+		<sdef n="p2"/>
+		<sdef n="p3"/>
+		<sdef n="p4"/>
+
+		<sdef n="m"/>
+		<sdef n="f"/>
+		<sdef n="mf"/>
+		<sdef n="itg"/>
+
+		<sdef n="prep" c="Preposition"/>
+		<sdef n="plc" c="Place"/>
+		<sdef n="time" c="Time"/>
+
+		<sdef n="nom" c="Nominative"/>
+		<sdef n="gen" c="Genitive"/>
+		<sdef n="dat" c="Dative"/>
+		<sdef n="acc" c="Accusative"/>
+		<sdef n="voc" c="Vocative"/>
+		<sdef n="loc" c="Locative"/>
+		<sdef n="ins" c="Instrumental"/>
+
+		<sdef n="number" c="number"/>
+		<sdef n="punct"/>
+		<sdef n="stop"/>
+		<sdef n="quest"/>
+		<sdef n="excl"/>
+		<sdef n="col"/>
+   </sdefs>
+
+   <section id="main" type="standard">
+			<e><p><l>punct<s n="punct"/></l><r>punct<s n="punct"/></r></p></e>
+			<e><p><l>biti<s n="vbser"/></l><r>be<s n="vbser"/></r></p></e>
+			<e><p><l>sest<s n="number"/></l><r>six<s n="number"/></r></p></e>
+			<e><p><l>pet<s n="number"/></l><r>five<s n="number"/></r></p></e>
+			<e><p><l>gdje<s n="adv"/></l><r>where<s n="adv"/></r></p></e>
+			<e><p><l>malo<s n="adv"/></l><r>some<s n="adv"/></r></p></e>
+			<e><p><l>neka<s n="part"/></l><r>some<s n="part"/></r></p></e>
+			<e><p><l>Ivica<s n="np"/></l><r>James<s n="np"/></r></p></e>
+			<e><p><l>Marica<s n="np"/></l><r>Mary<s n="np"/></r></p></e>
+			<e><p><l>vrijeme<s n="n"/></l><r>weather<s n="n"/></r></p></e>
+			<e><p><l>glava<s n="n"/></l><r>head<s n="n"/></r></p></e>
+			<e><p><l>voda<s n="n"/></l><r>water<s n="n"/></r></p></e>
+			<e><p><l>stol<s n="n"/></l><r>table<s n="n"/></r></p></e>
+			<e><p><l>prozor<s n="n"/></l><r>window<s n="n"/></r></p></e>
+			<e><p><l>stolac<s n="n"/></l><r>chair<s n="n"/></r></p></e>
+			<e><p><l>vani<s n="n"/></l><r>outside<s n="n"/></r></p></e>
+			<e><p><l>oko<s n="n"/></l><r>eye<s n="n"/></r></p></e>
+			<e><p><l>djecak<s n="n"/></l><r>boy<s n="n"/></r></p></e>
+			<e><p><l>djevojcica<s n="n"/></l><r>girl<s n="n"/></r></p></e>
+			<e><p><l>sestra<s n="n"/></l><r>sister<s n="n"/></r></p></e>
+			<e><p><l>pas<s n="n"/></l><r>dog<s n="n"/></r></p></e>
+			<e><p><l>drvo<s n="n"/></l><r>tree<s n="n"/></r></p></e>
+			<e><p><l>vrt<s n="n"/></l><r>garden<s n="n"/></r></p></e>
+			<e><p><l>kuc<s n="n"/></l><r>house<s n="n"/></r></p></e>
+			<e><p><l>ljudi<s n="n"/></l><r>people<s n="n"/></r></p></e>
+			<e><p><l>pitanje<s n="n"/></l><r>question<s n="n"/></r></p></e>
+			<e><p><l>odgovor<s n="n"/></l><r>response<s n="n"/></r></p></e>
+			<e><p><l>ptica<s n="n"/></l><r>bird<s n="n"/></r></p></e>
+			<e><p><l>zvuk<s n="n"/></l><r>sound<s n="n"/></r></p></e>
+			<e><p><l>zivotinja<s n="n"/></l><r>animal<s n="n"/></r></p></e>
+			<e><p><l>blizu<s n="prep"/></l><r>near<s n="prep"/></r></p></e>
+			<e><p><l>iza<s n="prep"/></l><r>behind<s n="prep"/></r></p></e>
+			<e><p><l>tako<s n="prep"/></l><r>that way<s n="prep"/></r></p></e>
+			<e><p><l>u<s n="prep"/></l><r>in<s n="prep"/></r></p></e>
+			<e><p><l>ispred<s n="prep"/></l><r>in front of<s n="prep"/></r></p></e>
+			<e><p><l>onda<s n="prep"/></l><r>then<s n="prep"/></r></p></e>
+			<e><p><l>danas<s n="prep"/></l><r>today<s n="prep"/></r></p></e>
+			<e><p><l>jucer<s n="prep"/></l><r>yesterday<s n="prep"/></r></p></e>
+			<e><p><l>naravno<s n="adv"/></l><r>of course<s n="adv"/></r></p></e>
+			<e><p><l>i<s n="conj"/></l><r>and<s n="conj"/></r></p></e>
+			<e><p><l>niti<s n="conj"/></l><r>nor<s n="conj"/></r></p></e>
+			<e><p><l>iako<s n="conj"/></l><r>although<s n="conj"/></r></p></e>
+			<e><p><l>a<s n="conj"/></l><r>and<s n="conj"/></r></p></e>
+			<e><p><l>ali<s n="conj"/></l><r>but<s n="conj"/></r></p></e>
+			<e><p><l>no<s n="conj"/></l><r>but<s n="conj"/></r></p></e>
+			<e><p><l>ne<s n="neg"/></l><r>no<s n="neg"/></r></p></e>
+			<e><p><l>druga<s n="adj"/></l><r>other<s n="adj"/></r></p></e>
+			<e><p><l>lijep<s n="adj"/></l><r>nice<s n="adj"/></r></p></e>
+			<e><p><l>sretan<s n="adj"/></l><r>happy<s n="adj"/></r></p></e>
+			<e><p><l>dva<s n="adj"/></l><r>two<s n="adj"/></r></p></e>
+			<e><p><l>toplo<s n="adj"/></l><r>warm<s n="adj"/></r></p></e>
+			<e><p><l>hladno<s n="adj"/></l><r>cold<s n="adj"/></r></p></e>
+			<e><p><l>jako<s n="adj"/></l><r>very<s n="adj"/></r></p></e>
+			<e><p><l>mal<s n="adj"/></l><r>small<s n="adj"/></r></p></e>
+			<e><p><l>star<s n="adj"/></l><r>old<s n="adj"/></r></p></e>
+			<e><p><l>velik<s n="adj"/></l><r>big<s n="adj"/></r></p></e>
+			<e><p><l>ppos<s n="ppos"/></l><r>ppos<s n="ppos"/></r></p></e>
+			<e><p><l>probj<s n="probj"/></l><r>probj<s n="probj"/></r></p></e>
+                        <e><p><l>otići<s n="vblex"/></l><r>leave<s n="vblex"/></r></p></e>
+			<e><p><l>pojesti<s n="vblex"/></l><r>eat<s n="vblex"/></r></p></e>
+			<e><p><l>popiti<s n="vblex"/></l><r>drink<s n="vblex"/></r></p></e>
+			<e><p><l>igrati<s n="vblex"/></l><r>play<s n="vblex"/></r></p></e>
+			<e><p><l>slusati<s n="vblex"/></l><r>listen<s n="vblex"/></r></p></e>
+			<e><p><l>dobiti<s n="vblex"/></l><r>get<s n="vblex"/></r></p></e>
+			<e><p><l>spava<s n="vblex"/></l><r>sleep<s n="vblex"/></r></p></e>
+			<e><p><l>kazati<s n="vblex"/></l><r>say<s n="vblex"/></r></p></e>
+			<e><p><l>gleda<s n="vblex"/></l><r>look<s n="vblex"/></r></p></e>
+			<e><p><l>vidjeti<s n="vblex"/></l><r>see<s n="vblex"/></r></p></e>
+			<e><p><l>smijati<s n="vblex"/></l><r>laugh<s n="vblex"/></r></p></e>
+			<e><p><l>setati<s n="vblex"/></l><r>walk<s n="vblex"/></r></p></e>
+			<e><p><l>misli<s n="vblex"/></l><r>think<s n="vblex"/></r></p></e>
+			<e><p><l>moze<s n="vbmod"/></l><r>can<s n="vbmod"/></r></p></e>
+			<e><p><l>ima<s n="vbhaver"/></l><r>have<s n="vbhaver"/></r></p></e>
+			<e><p><l>nema<s n="vbhaver"/></l><r>not have<s n="vbhaver"/></r></p></e>
+			<e><p><l>voli<s n="vbmod"/></l><r>love<s n="vbmod"/></r></p></e>
+			<e r="LR"><p><l>obozavati<s n="vbmod"/></l><r>love<s n="vbmod"/></r></p></e>
+			<e><p><l>s<s n="prep"/></l><r>with<s n="prep"/></r></p></e>
+			<e><p><l>jos uvijek<s n="prep"/></l><r>still<s n="prep"/></r></p></e>
+			<e><p><l>ispod<s n="prep"/></l><r>under<s n="prep"/></r></p></e>
+			<e><p><l>kroz<s n="prep"/></l><r>through<s n="prep"/></r></p></e>
+			<e><p><l>djete<s n="n"/></l><r>kid<s n="n"/></r></p></e>
+			<e><p><l>ruka<s n="n"/></l><r>hand<s n="n"/></r></p></e>
+			<e><p><l>macka<s n="n"/></l><r>cat<s n="n"/></r></p></e>
+			<e><p><l>majka<s n="n"/></l><r>mother<s n="n"/></r></p></e>
+			<e><p><l>nista<s n="n"/></l><r>nothing<s n="n"/></r></p></e>
+			<e><p><l>igra<s n="n"/></l><r>game<s n="n"/></r></p></e>
+			<e><p><l>brojanje<s n="n"/></l><r>counting<s n="n"/></r></p></e>
+			<e><p><l>prpers<s n="prn"/></l><r>prpers<s n="prn"/></r></p></e>
+			<e><p><l>hitro<s n="adv"/></l><r>quickly<s n="adv"/></r></p></e>
+			<e><p><l>vjerojatno<s n="adv"/></l><r>probably<s n="adv"/></r></p></e>
+			<e><p><l>sto<s n="adv"/></l><r>what<s n="adv"/></r></p></e>
+			<e><p><l>na<s n="adv"/></l><r>to<s n="adv"/></r></p></e>
+			<e><p><l>zajedno<s n="adv"/></l><r>together<s n="adv"/></r></p></e>
+			<e><p><l>polako<s n="adv"/></l><r>slowly<s n="adv"/></r></p></e>
+			<e><p><l>pazljivo<s n="adv"/></l><r>carefully<s n="adv"/></r></p></e>
+			<e><p><l>mozda<s n="part"/></l><r>maybe<s n="part"/></r></p></e>
+			<e><p><l>mora da je<s n="expr"/></l><r>must be<s n="expr"/></r></p></e>
+			<e><p><l>opet<s n="prep"/></l><r>again<s n="prep"/></r></p></e>
+			<e><p><l>do<s n="adv"/></l><r>to<s n="adv"/></r></p></e>
+			<e><p><l>nikad<s n="adv"/></l><r>never<s n="adv"/></r></p></e>
+			<e><p><l>od<s n="adv"/></l><r>from<s n="adv"/></r></p></e>
+			<e><p><l>uvijek<s n="adv"/></l><r>always<s n="adv"/></r></p></e>
+			<e><p><l>dobro<s n="adv"/></l><r>well<s n="adv"/></r></p></e>
+			<e><p><l>sad<s n="adv"/></l><r>now<s n="adv"/></r></p></e>
+			<e><p><l>pokusavati<s n="vblex"/></l><r>try<s n="vblex"/></r></p></e>
+			<e><p><l>prici<s n="vblex"/></l><r>come<s n="vblex"/></r></p></e>
+			<e><p><l>zeljeti<s n="vblex"/></l><r>want<s n="vblex"/></r></p></e>
+			<e r="LR"><p><l>cuti<s n="vblex"/></l><r>hear<s n="vblex"/></r></p></e>
+			<e><p><l>potrcava<s n="vblex"/></l><r>run<s n="vblex"/></r></p></e>
+			<e><p><l>skriva<s n="vblex"/></l><r>hide<s n="vblex"/></r></p></e>
+			<e><p><l>znati<s n="vblex"/></l><r>know<s n="vblex"/></r></p></e>
+			<e><p><l>pitati<s n="vblex"/></l><r>ask<s n="vblex"/></r></p></e>
+			<e><p><l>zavrsiti<s n="vblex"/></l><r>finish<s n="vblex"/></r></p></e>
+			<e><p><l>zasto<s n="adv"/></l><r>why<s n="adv"/></r></p></e>
+			<e><p><l>kad<s n="prep"/></l><r>when<s n="prep"/></r></p></e>
+			<e><p><l>blize<s n="prep"/></l><r>closer<s n="prep"/></r></p></e>
+			<e><p><l>tamo<s n="prep"/></l><r>there<s n="prep"/></r></p></e>
+			<e><p><l>posvuda<s n="prep"/></l><r>everywhere<s n="prep"/></r></p></e>
+			<e><p><l>da<s n="part"/></l><r>that<s n="part"/></r></p></e>
+			<e><p><l>tog<s n="part"/></l><r>that<s n="part"/></r></p></e>
+			<e><p><l>uokolo<s n="adv"/></l><r>around<s n="adv"/></r></p></e>
+			<e><p><l>kako<s n="prep"/></l><r>how<s n="prep"/></r></p></e>
+			<e><p><l>zatim<s n="prep"/></l><r>then<s n="prep"/></r></p></e>
+			<e><p><l>traziti<s n="vblex"/></l><r>is looking for<s n="vblex"/></r></p></e>
+			<e><p><l>otici<s n="vblex"/></l><r>go<s n="vblex"/></r></p></e>
+			<e><p><l>govoriti<s n="vblex"/></l><r>speak<s n="vblex"/></r></p></e>
+			<e><p><l>razgovarati<s n="vblex"/></l><r>talk<s n="vblex"/></r></p></e>
+			<e><p><l>reci<s n="vblex"/></l><r>tell<s n="vblex"/></r></p></e>
+			<e><p><l>odgovoriti<s n="vblex"/></l><r>respond<s n="vblex"/></r></p></e>
+			<e><p><l>naci<s n="vblex"/></l><r>find<s n="vblex"/></r></p></e>
+			<e><p><l>dolaziti<s n="vblex"/></l><r>coming<s n="vblex"/></r></p></e>
+			<e><p><l>evo<s n="part"/></l><r>here is<s n="part"/></r></p></e>
+			<e><p><l>sjedi<s n="vblex"/></l><r>sit<s n="vblex"/></r></p></e>
+			<e><p><l>drzi<s n="vblex"/></l><r>hold<s n="vblex"/></r></p></e>
+			<e><p><l>zacuti<s n="vblex"/></l><r>hear<s n="vblex"/></r></p></e>
+			<e><p><l>odlaziti<s n="vblex"/></l><r>go<s n="vblex"/></r></p></e>
+			<e><p><l>odbrojavati<s n="vblex"/></l><r>count<s n="vblex"/></r></p></e>
+			<e r="LR"><p><l>pogledati<s n="vblex"/></l><r>look<s n="vblex"/></r></p></e>
+			<e><p><l>raditi<s n="vblex"/></l><r>do<s n="vblex"/></r></p></e>
+			<e><p><l>prepprn<s n="prepprn"/></l><r>prepprn<s n="prepprn"/></r></p></e>
+   </section>
+</dictionary>
