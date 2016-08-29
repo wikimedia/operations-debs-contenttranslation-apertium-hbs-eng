@@ -1,3 +1,11 @@
+apertium-hbs-eng (0.1.0~r57598-1+wmf1) jessie-wikimedia; urgency=low
+
+  * New upstream snapshot.
+  * Rebuild for Jessie.
+  * Fixed dependencies and cleanup debian/rules file.
+
+ -- Kartik Mistry <kartik@debian.org>  Thu, 25 Aug 2016 11:20:36 +0530
+
 apertium-hbs-eng (0.1.0~r57554-1) trusty; urgency=low
 
   [ Tino Didriksen ]
