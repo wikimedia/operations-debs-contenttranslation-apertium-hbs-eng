@@ -8,7 +8,7 @@ Build-Depends: apertium-dev (>= 3.4),
                apertium-hbs,
                apertium-lex-tools,
                autotools-dev,
-               cg3,
+               cg3 (>= 1.0.0~r12254),
                debhelper (>= 9),
                dh-autoreconf,
                gawk,
@@ -22,7 +22,7 @@ Package: apertium-hbs-eng
 Architecture: all
 Depends: apertium (>= 3.4),
          apertium-lex-tools,
-         cg3,
+         cg3 (>= 1.0.0~r12254),
          ${misc:Depends},
          ${shlibs:Depends}
 Provides: apertium-eng-hbs
